@@ -1,0 +1,22 @@
+[0.299s] Invoking command in '/home/parallels/code/town_ws/src/village_li': PYTHONPATH=/home/parallels/code/town_ws/install/village_li/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/parallels/code/town_ws/build/village_li/build install --prefix /home/parallels/code/town_ws/install/village_li --record /home/parallels/code/town_ws/build/village_li/install.log --single-version-externally-managed
+[0.390s] running egg_info
+[0.390s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.390s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.390s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.390s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.390s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.407s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.407s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.408s] running build
+[0.408s] running build_py
+[0.408s] running install
+[0.408s] running install_lib
+[0.409s] running install_data
+[0.409s] running install_egg_info
+[0.409s] removing '/home/parallels/code/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info' (and everything under it)
+[0.410s] Copying ../../build/village_li/village_li.egg-info to /home/parallels/code/town_ws/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info
+[0.410s] running install_scripts
+[0.420s] Installing li3_node script to /home/parallels/code/town_ws/install/village_li/lib/village_li
+[0.420s] Installing li4_node script to /home/parallels/code/town_ws/install/village_li/lib/village_li
+[0.420s] writing list of installed files to '/home/parallels/code/town_ws/build/village_li/install.log'
+[0.433s] Invoked command in '/home/parallels/code/town_ws/src/village_li' returned '0': PYTHONPATH=/home/parallels/code/town_ws/install/village_li/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_li build --build-base /home/parallels/code/town_ws/build/village_li/build install --prefix /home/parallels/code/town_ws/install/village_li --record /home/parallels/code/town_ws/build/village_li/install.log --single-version-externally-managed
