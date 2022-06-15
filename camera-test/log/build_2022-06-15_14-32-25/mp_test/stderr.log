@@ -1,0 +1,2 @@
+/home/parallels/code/ros2-test/camera-test/install/mp_test/lib/python3.8/site-packages/mp_test/mpinput.py:18: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  msg.data = 'Hello, %d'(self.i)

@@ -1,0 +1,3 @@
+[console_scripts]
+mpinput_node = mp_test.mpinput:main
+
