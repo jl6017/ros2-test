@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/mp_test2/mp_test2.egg-info/PKG-INFO
+writing dependency_links to ../../build/mp_test2/mp_test2.egg-info/dependency_links.txt
+writing entry points to ../../build/mp_test2/mp_test2.egg-info/entry_points.txt
+writing requirements to ../../build/mp_test2/mp_test2.egg-info/requires.txt
+writing top-level names to ../../build/mp_test2/mp_test2.egg-info/top_level.txt
+package init file 'mp_test2/lmks_data/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/mp_test2/mp_test2.egg-info/SOURCES.txt'
+writing manifest file '../../build/mp_test2/mp_test2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mp_test2/mpinput.py -> /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2
+creating /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data
+copying mp_test2/lmks_data/face_geometry.py -> /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data
+copying mp_test2/lmks_data/simplified_landmark_plus.py -> /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data
+running install
+running install_lib
+creating /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data
+copying /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data/face_geometry.py -> /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data
+copying /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data/simplified_landmark_plus.py -> /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data
+copying /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/mpinput.py -> /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2
+byte-compiling /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data/face_geometry.py to face_geometry.cpython-38.pyc
+byte-compiling /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data/simplified_landmark_plus.py to simplified_landmark_plus.cpython-38.pyc
+byte-compiling /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/mpinput.py to mpinput.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/mp_test2/mp_test2.egg-info to /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing mpinput_node script to /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/mp_test2
+writing list of installed files to '/home/parallels/code/ros2-test/camera-test/build/mp_test2/install.log'
