@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/nn_computer/nn_computer.egg-info/PKG-INFO
+../../build/nn_computer/nn_computer.egg-info/SOURCES.txt
+../../build/nn_computer/nn_computer.egg-info/dependency_links.txt
+../../build/nn_computer/nn_computer.egg-info/entry_points.txt
+../../build/nn_computer/nn_computer.egg-info/requires.txt
+../../build/nn_computer/nn_computer.egg-info/top_level.txt
+../../build/nn_computer/nn_computer.egg-info/zip-safe
+nn_computer/__init__.py
+nn_computer/nncomputer.py
+resource/nn_computer
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
