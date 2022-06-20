@@ -8,6 +8,7 @@ setup.py
 ../../build/mp_input/mp_input.egg-info/requires.txt
 ../../build/mp_input/mp_input.egg-info/top_level.txt
 ../../build/mp_input/mp_input.egg-info/zip-safe
+launch/mp.launch.py
 mp_input/__init__.py
 mp_input/mpinput.py
 mp_input/normalization.py

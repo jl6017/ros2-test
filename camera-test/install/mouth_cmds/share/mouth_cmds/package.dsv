@@ -1,0 +1,6 @@
+source;share/mouth_cmds/hook/pythonpath.ps1
+source;share/mouth_cmds/hook/pythonpath.dsv
+source;share/mouth_cmds/hook/pythonpath.sh
+source;share/mouth_cmds/hook/ament_prefix_path.ps1
+source;share/mouth_cmds/hook/ament_prefix_path.dsv
+source;share/mouth_cmds/hook/ament_prefix_path.sh

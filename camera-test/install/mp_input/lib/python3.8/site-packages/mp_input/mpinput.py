@@ -18,14 +18,16 @@ class mpNode(Node):
     """
     def __init__(self):
         super().__init__('mp_node')
-        self.pub_points = self.create_publisher(Float64MultiArray, '/simple_lmks', 10)
+        self.get_logger().info("start mediapipe")
+        self.pub_points = self.create_publisher(Float64MultiArray, '/normal_lmks', 10)
+        self.pub_position = self.create_publisher(Float64MultiArray, '/position', 10)
         self.i = 0
         self.run_pub()
 
 
     def run_pub(self):
         msg = Float64MultiArray()
-
+        msg_pos = Float64MultiArray()
         mp_face_mesh = mp.solutions.face_mesh
         frame_width, frame_height = 1920, 1080
         channels = 3
@@ -50,8 +52,9 @@ class mpNode(Node):
                 min_tracking_confidence=0.5)
         cap = cv2.VideoCapture(0)
 
-        while True:
+        while cap.isOpened():
             success, image = cap.read()
+            cv2.imshow('MediaPipe Face Mesh', cv2.flip(image, 1))
             if not success:
                 print("Ignoring empty camera frame.")
                 return 0, 0 
@@ -62,6 +65,7 @@ class mpNode(Node):
             # rgb_image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
             # cv2.namedWindow("RGB window")
             # cv2.imshow("Input", rgb_image)
+            
             if results.multi_face_landmarks:
                 for face_landmarks in results.multi_face_landmarks:
                     landmarks = np.array(
@@ -70,16 +74,26 @@ class mpNode(Node):
                     landmarks = landmarks.T
                     landmarks = landmarks[:, :468]
 
-                    metric_landmarks, _ = get_metric_landmarks(
+                    metric_landmarks, pose_transform_mat = get_metric_landmarks(
                         landmarks.copy(), pcf
                     )
 
                     simple_lmks = matric2simple(metric_landmarks)
-                    
-                    msg.data = np.reshape(simple_lmks, 226).tolist()
+                    # to robot lmks
+                    if self.i == 0:
+                        global H_static_face
+                        H_static_face = np.copy(simple_lmks)
+
+                    normalized_lmks = human2robot(simple_lmks, H_static_face)
+                    # can be better.
+                    normalized_lmks_2 = reorder_lmks(normalized_lmks)                
+                    msg.data = np.reshape(normalized_lmks_2, 226).tolist()
+                    msg_pos.data = [pose_transform_mat[0, -1], pose_transform_mat[1, -1], pose_transform_mat[2, -1]]
                     self.pub_points.publish(msg)
-                    self.get_logger().info('Publishing: "%s"' % len(msg.data))
+                    self.pub_position.publish(msg_pos)
+                    # self.get_logger().info('Publishing: "%s"' % len(msg.data))
                     self.i += 1
+        cap.isOpened()
 
 
 def main(args=None):
@@ -97,6 +111,8 @@ if __name__ == '__main__':
 
     # ros2 pkg create mp_input --build-type ament_python --dependencies rclpy
     # ros2 pkg create nn_computer --build-type ament_python --dependencies rclpy
-    # ros2 pkg create cmd_output --build-type ament_python --dependencies rclpy
+    # ros2 pkg create eye_cmd --build-type ament_python --dependencies rclpy
+    # ros2 pkg create mouth_cmd --build-type ament_python --dependencies rclpy
+    
 
     # ros2 run mp_test2 mpinput_node
