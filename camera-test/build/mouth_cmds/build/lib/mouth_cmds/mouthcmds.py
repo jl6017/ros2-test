@@ -22,7 +22,7 @@ class mouthSubscriber(Node):
         new_time = time.time()
         fps = 1. / (new_time - self.ctime)
         self.ctime = new_time
-        self.get_logger().info('mouth fps: "%s"' % fps)
+        self.get_logger().info('mouth cmds:"%s" fps: "%s"' % (len(msg.data), int(fps)))
 
 
 def main(args=None):

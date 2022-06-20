@@ -4,7 +4,7 @@ from std_msgs.msg import Float64MultiArray
 import numpy as np
 import cv2
 import mediapipe as mp
-
+import time
 from .normalization import human2robot, reorder_lmks, matric2simple, R_static_face, robot_edge
 from .lmks_data.face_geometry import (
     PCF,
@@ -19,11 +19,11 @@ class mpNode(Node):
     def __init__(self):
         super().__init__('mp_node')
         self.get_logger().info("start mediapipe")
+        self.ctime = time.time()
         self.pub_points = self.create_publisher(Float64MultiArray, '/normal_lmks', 10)
         self.pub_position = self.create_publisher(Float64MultiArray, '/position', 10)
         self.i = 0
         self.run_pub()
-
 
     def run_pub(self):
         msg = Float64MultiArray()
@@ -54,7 +54,6 @@ class mpNode(Node):
 
         while cap.isOpened():
             success, image = cap.read()
-            cv2.imshow('MediaPipe Face Mesh', cv2.flip(image, 1))
             if not success:
                 print("Ignoring empty camera frame.")
                 return 0, 0 
@@ -91,7 +90,10 @@ class mpNode(Node):
                     msg_pos.data = [pose_transform_mat[0, -1], pose_transform_mat[1, -1], pose_transform_mat[2, -1]]
                     self.pub_points.publish(msg)
                     self.pub_position.publish(msg_pos)
-                    # self.get_logger().info('Publishing: "%s"' % len(msg.data))
+                    new_time = time.time()
+                    fps = 1. / (new_time - self.ctime)
+                    self.ctime = new_time
+                    self.get_logger().info('Publishing: "%s", fps: "%s"' % (len(msg.data), int(fps)))
                     self.i += 1
         cap.isOpened()
 
@@ -113,6 +115,12 @@ if __name__ == '__main__':
     # ros2 pkg create nn_computer --build-type ament_python --dependencies rclpy
     # ros2 pkg create eye_cmd --build-type ament_python --dependencies rclpy
     # ros2 pkg create mouth_cmd --build-type ament_python --dependencies rclpy
-    
 
-    # ros2 run mp_test2 mpinput_node
+    # option+A and option+O
+    # colcon build
+    # source install/setup.bash
+    # ros2 run mp_input mpinput_node
+    # ros2 run nn_computer nn_node
+    # ros2 run eye_cmds eye_node
+    # ros2 run mouth_cmds mouth_node
+    # ros2 run neck_cmds neck_node

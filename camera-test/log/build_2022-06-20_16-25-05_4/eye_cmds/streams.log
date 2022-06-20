@@ -1,0 +1,21 @@
+[1.785s] Invoking command in '/home/parallels/code/ros2-test/camera-test/src/eye_cmds': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/eye_cmds --record /home/parallels/code/ros2-test/camera-test/build/eye_cmds/install.log --single-version-externally-managed
+[2.353s] running egg_info
+[2.361s] writing ../../build/eye_cmds/eye_cmds.egg-info/PKG-INFO
+[2.362s] writing dependency_links to ../../build/eye_cmds/eye_cmds.egg-info/dependency_links.txt
+[2.362s] writing entry points to ../../build/eye_cmds/eye_cmds.egg-info/entry_points.txt
+[2.362s] writing requirements to ../../build/eye_cmds/eye_cmds.egg-info/requires.txt
+[2.362s] writing top-level names to ../../build/eye_cmds/eye_cmds.egg-info/top_level.txt
+[2.438s] reading manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'
+[2.445s] writing manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'
+[2.445s] running build
+[2.445s] running build_py
+[2.447s] running install
+[2.448s] running install_lib
+[2.448s] running install_data
+[2.449s] running install_egg_info
+[2.451s] removing '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages/eye_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[2.451s] Copying ../../build/eye_cmds/eye_cmds.egg-info to /home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages/eye_cmds-0.0.0-py3.8.egg-info
+[2.452s] running install_scripts
+[2.495s] Installing eye_node script to /home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/eye_cmds
+[2.496s] writing list of installed files to '/home/parallels/code/ros2-test/camera-test/build/eye_cmds/install.log'
+[2.553s] Invoked command in '/home/parallels/code/ros2-test/camera-test/src/eye_cmds' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/eye_cmds --record /home/parallels/code/ros2-test/camera-test/build/eye_cmds/install.log --single-version-externally-managed

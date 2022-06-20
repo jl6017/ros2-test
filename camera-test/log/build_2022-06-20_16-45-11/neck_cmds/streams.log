@@ -1,0 +1,21 @@
+[1.787s] Invoking command in '/home/parallels/code/ros2-test/camera-test/src/neck_cmds': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/neck_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/neck_cmds --record /home/parallels/code/ros2-test/camera-test/build/neck_cmds/install.log --single-version-externally-managed
+[2.324s] running egg_info
+[2.325s] writing ../../build/neck_cmds/neck_cmds.egg-info/PKG-INFO
+[2.325s] writing dependency_links to ../../build/neck_cmds/neck_cmds.egg-info/dependency_links.txt
+[2.326s] writing entry points to ../../build/neck_cmds/neck_cmds.egg-info/entry_points.txt
+[2.326s] writing requirements to ../../build/neck_cmds/neck_cmds.egg-info/requires.txt
+[2.326s] writing top-level names to ../../build/neck_cmds/neck_cmds.egg-info/top_level.txt
+[2.400s] reading manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'
+[2.402s] writing manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'
+[2.403s] running build
+[2.403s] running build_py
+[2.403s] running install
+[2.403s] running install_lib
+[2.409s] running install_data
+[2.410s] running install_egg_info
+[2.414s] removing '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[2.417s] Copying ../../build/neck_cmds/neck_cmds.egg-info to /home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info
+[2.420s] running install_scripts
+[2.475s] Installing neck_node script to /home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/neck_cmds
+[2.476s] writing list of installed files to '/home/parallels/code/ros2-test/camera-test/build/neck_cmds/install.log'
+[2.822s] Invoked command in '/home/parallels/code/ros2-test/camera-test/src/neck_cmds' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/neck_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/neck_cmds --record /home/parallels/code/ros2-test/camera-test/build/neck_cmds/install.log --single-version-externally-managed

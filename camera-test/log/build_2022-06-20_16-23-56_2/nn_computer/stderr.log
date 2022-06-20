@@ -1,0 +1,1 @@
+error removing /home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages/nn_computer-0.0.0-py3.8.egg-info: [Errno 39] Directory not empty: '/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages/nn_computer-0.0.0-py3.8.egg-info'
