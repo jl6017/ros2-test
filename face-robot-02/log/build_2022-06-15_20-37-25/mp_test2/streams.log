@@ -1,0 +1,33 @@
+[0.300s] Invoking command in '/home/parallels/code/ros2-test/camera-test/src/mp_test2': PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_test2 build --build-base /home/parallels/code/ros2-test/camera-test/build/mp_test2/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mp_test2 --record /home/parallels/code/ros2-test/camera-test/build/mp_test2/install.log --single-version-externally-managed
+[0.397s] running egg_info
+[0.397s] writing ../../build/mp_test2/mp_test2.egg-info/PKG-INFO
+[0.398s] writing dependency_links to ../../build/mp_test2/mp_test2.egg-info/dependency_links.txt
+[0.398s] writing entry points to ../../build/mp_test2/mp_test2.egg-info/entry_points.txt
+[0.398s] writing requirements to ../../build/mp_test2/mp_test2.egg-info/requires.txt
+[0.398s] writing top-level names to ../../build/mp_test2/mp_test2.egg-info/top_level.txt
+[0.415s] package init file 'mp_test2/lmks_data/__init__.py' not found (or not a regular file)
+[0.415s] reading manifest file '../../build/mp_test2/mp_test2.egg-info/SOURCES.txt'
+[0.416s] writing manifest file '../../build/mp_test2/mp_test2.egg-info/SOURCES.txt'
+[0.416s] running build
+[0.416s] running build_py
+[0.416s] copying mp_test2/mpinput.py -> /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2
+[0.416s] creating /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data
+[0.416s] copying mp_test2/lmks_data/face_geometry.py -> /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data
+[0.416s] copying mp_test2/lmks_data/simplified_landmark_plus.py -> /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data
+[0.416s] running install
+[0.417s] running install_lib
+[0.417s] creating /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data
+[0.417s] copying /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data/face_geometry.py -> /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data
+[0.418s] copying /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/lmks_data/simplified_landmark_plus.py -> /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data
+[0.418s] copying /home/parallels/code/ros2-test/camera-test/build/mp_test2/build/lib/mp_test2/mpinput.py -> /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2
+[0.418s] byte-compiling /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data/face_geometry.py to face_geometry.cpython-38.pyc
+[0.422s] byte-compiling /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/lmks_data/simplified_landmark_plus.py to simplified_landmark_plus.cpython-38.pyc
+[0.424s] byte-compiling /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2/mpinput.py to mpinput.cpython-38.pyc
+[0.424s] running install_data
+[0.424s] running install_egg_info
+[0.425s] removing '/home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2-0.0.0-py3.8.egg-info' (and everything under it)
+[0.425s] Copying ../../build/mp_test2/mp_test2.egg-info to /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages/mp_test2-0.0.0-py3.8.egg-info
+[0.425s] running install_scripts
+[0.434s] Installing mpinput_node script to /home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/mp_test2
+[0.434s] writing list of installed files to '/home/parallels/code/ros2-test/camera-test/build/mp_test2/install.log'
+[0.445s] Invoked command in '/home/parallels/code/ros2-test/camera-test/src/mp_test2' returned '0': PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mp_test2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_test2 build --build-base /home/parallels/code/ros2-test/camera-test/build/mp_test2/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mp_test2 --record /home/parallels/code/ros2-test/camera-test/build/mp_test2/install.log --single-version-externally-managed

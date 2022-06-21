@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/parallels/code/ros2-test/face-robot-02/src/robot_interfaces:srv/mylist.srv"
+  ]
+}

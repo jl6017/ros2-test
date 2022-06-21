@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/parallels/code/ros2-test/example/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parallels/code/ros2-test/example/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/parallels/code/ros2-test/example/install/robot_interfaces
+[0.028s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Found PythonInterp: /home/parallels/miniconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3") 
+[0.043s] -- Using PYTHON_EXECUTABLE: /home/parallels/miniconda3/bin/python3
+[0.123s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.126s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.244s] -- Found PythonInterp: /home/parallels/miniconda3/bin/python3 (found version "3.9.12") 
+[0.288s] Traceback (most recent call last):
+[0.288s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[0.288s]     from catkin_pkg.package import parse_package_string
+[0.289s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.290s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.290s]   execute_process(/home/parallels/miniconda3/bin/python3
+[0.290s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.291s]   /home/parallels/code/ros2-test/example/src/robot_interfaces/package.xml
+[0.291s]   /home/parallels/code/ros2-test/example/build/robot_interfaces/ament_cmake_core/package.cmake)
+[0.291s]   returned error code 1
+[0.291s] Call Stack (most recent call first):
+[0.291s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.291s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.291s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.291s] 
+[0.291s] 
+[0.291s] -- Configuring incomplete, errors occurred!
+[0.291s] See also "/home/parallels/code/ros2-test/example/build/robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.295s] Invoked command in '/home/parallels/code/ros2-test/example/build/robot_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parallels/code/ros2-test/example/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/parallels/code/ros2-test/example/install/robot_interfaces

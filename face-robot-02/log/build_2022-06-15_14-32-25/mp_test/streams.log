@@ -1,0 +1,26 @@
+[0.289s] Invoking command in '/home/parallels/code/ros2-test/camera-test/src/mp_test': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mp_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_test build --build-base /home/parallels/code/ros2-test/camera-test/build/mp_test/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mp_test --record /home/parallels/code/ros2-test/camera-test/build/mp_test/install.log --single-version-externally-managed
+[0.383s] running egg_info
+[0.384s] writing ../../build/mp_test/mp_test.egg-info/PKG-INFO
+[0.384s] writing dependency_links to ../../build/mp_test/mp_test.egg-info/dependency_links.txt
+[0.384s] writing entry points to ../../build/mp_test/mp_test.egg-info/entry_points.txt
+[0.384s] writing requirements to ../../build/mp_test/mp_test.egg-info/requires.txt
+[0.384s] writing top-level names to ../../build/mp_test/mp_test.egg-info/top_level.txt
+[0.400s] reading manifest file '../../build/mp_test/mp_test.egg-info/SOURCES.txt'
+[0.400s] writing manifest file '../../build/mp_test/mp_test.egg-info/SOURCES.txt'
+[0.400s] running build
+[0.400s] running build_py
+[0.400s] copying mp_test/mpinput.py -> /home/parallels/code/ros2-test/camera-test/build/mp_test/build/lib/mp_test
+[0.401s] running install
+[0.401s] running install_lib
+[0.401s] copying /home/parallels/code/ros2-test/camera-test/build/mp_test/build/lib/mp_test/mpinput.py -> /home/parallels/code/ros2-test/camera-test/install/mp_test/lib/python3.8/site-packages/mp_test
+[0.402s] byte-compiling /home/parallels/code/ros2-test/camera-test/install/mp_test/lib/python3.8/site-packages/mp_test/mpinput.py to mpinput.cpython-38.pyc
+[0.402s] /home/parallels/code/ros2-test/camera-test/install/mp_test/lib/python3.8/site-packages/mp_test/mpinput.py:18: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+[0.402s]   msg.data = 'Hello, %d'(self.i)
+[0.403s] running install_data
+[0.403s] running install_egg_info
+[0.404s] removing '/home/parallels/code/ros2-test/camera-test/install/mp_test/lib/python3.8/site-packages/mp_test-0.0.0-py3.8.egg-info' (and everything under it)
+[0.404s] Copying ../../build/mp_test/mp_test.egg-info to /home/parallels/code/ros2-test/camera-test/install/mp_test/lib/python3.8/site-packages/mp_test-0.0.0-py3.8.egg-info
+[0.404s] running install_scripts
+[0.414s] Installing mpinput_node script to /home/parallels/code/ros2-test/camera-test/install/mp_test/lib/mp_test
+[0.414s] writing list of installed files to '/home/parallels/code/ros2-test/camera-test/build/mp_test/install.log'
+[0.426s] Invoked command in '/home/parallels/code/ros2-test/camera-test/src/mp_test' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mp_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_test build --build-base /home/parallels/code/ros2-test/camera-test/build/mp_test/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mp_test --record /home/parallels/code/ros2-test/camera-test/build/mp_test/install.log --single-version-externally-managed

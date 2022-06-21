@@ -1,0 +1,24 @@
+[0.422s] Invoking command in '/home/parallels/code/ros2-test/camera-test/src/nn_computer': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_computer build --build-base /home/parallels/code/ros2-test/camera-test/build/nn_computer/build install --prefix /home/parallels/code/ros2-test/camera-test/install/nn_computer --record /home/parallels/code/ros2-test/camera-test/build/nn_computer/install.log --single-version-externally-managed
+[0.519s] running egg_info
+[0.520s] writing ../../build/nn_computer/nn_computer.egg-info/PKG-INFO
+[0.520s] writing dependency_links to ../../build/nn_computer/nn_computer.egg-info/dependency_links.txt
+[0.520s] writing entry points to ../../build/nn_computer/nn_computer.egg-info/entry_points.txt
+[0.520s] writing requirements to ../../build/nn_computer/nn_computer.egg-info/requires.txt
+[0.520s] writing top-level names to ../../build/nn_computer/nn_computer.egg-info/top_level.txt
+[0.537s] reading manifest file '../../build/nn_computer/nn_computer.egg-info/SOURCES.txt'
+[0.537s] writing manifest file '../../build/nn_computer/nn_computer.egg-info/SOURCES.txt'
+[0.537s] running build
+[0.537s] running build_py
+[0.538s] copying nn_computer/nncomputer.py -> /home/parallels/code/ros2-test/camera-test/build/nn_computer/build/lib/nn_computer
+[0.538s] running install
+[0.538s] running install_lib
+[0.538s] copying /home/parallels/code/ros2-test/camera-test/build/nn_computer/build/lib/nn_computer/nncomputer.py -> /home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages/nn_computer
+[0.538s] byte-compiling /home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages/nn_computer/nncomputer.py to nncomputer.cpython-38.pyc
+[0.539s] running install_data
+[0.540s] running install_egg_info
+[0.540s] removing '/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages/nn_computer-0.0.0-py3.8.egg-info' (and everything under it)
+[0.540s] Copying ../../build/nn_computer/nn_computer.egg-info to /home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages/nn_computer-0.0.0-py3.8.egg-info
+[0.541s] running install_scripts
+[0.550s] Installing nn_node script to /home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/nn_computer
+[0.550s] writing list of installed files to '/home/parallels/code/ros2-test/camera-test/build/nn_computer/install.log'
+[0.564s] Invoked command in '/home/parallels/code/ros2-test/camera-test/src/nn_computer' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_computer build --build-base /home/parallels/code/ros2-test/camera-test/build/nn_computer/build install --prefix /home/parallels/code/ros2-test/camera-test/install/nn_computer --record /home/parallels/code/ros2-test/camera-test/build/nn_computer/install.log --single-version-externally-managed

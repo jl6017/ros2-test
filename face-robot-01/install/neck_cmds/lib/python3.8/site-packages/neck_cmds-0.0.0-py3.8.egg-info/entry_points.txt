@@ -1,0 +1,3 @@
+[console_scripts]
+neck_node = neck_cmds.neckcmds:main
+

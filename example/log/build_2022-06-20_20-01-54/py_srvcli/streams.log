@@ -1,0 +1,41 @@
+[0.304s] Invoking command in '/home/parallels/code/ros2-test/example/src/py_srvcli': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/parallels/code/ros2-test/example/build/py_srvcli/build install --prefix /home/parallels/code/ros2-test/example/install/py_srvcli --record /home/parallels/code/ros2-test/example/build/py_srvcli/install.log --single-version-externally-managed
+[0.402s] running egg_info
+[0.402s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.403s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.403s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.403s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.403s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.403s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.403s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.420s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.421s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.421s] running build
+[0.421s] running build_py
+[0.421s] creating /home/parallels/code/ros2-test/example/build/py_srvcli/build
+[0.421s] creating /home/parallels/code/ros2-test/example/build/py_srvcli/build/lib
+[0.421s] creating /home/parallels/code/ros2-test/example/build/py_srvcli/build/lib/py_srvcli
+[0.421s] copying py_srvcli/client_member_function.py -> /home/parallels/code/ros2-test/example/build/py_srvcli/build/lib/py_srvcli
+[0.421s] copying py_srvcli/service_member_function.py -> /home/parallels/code/ros2-test/example/build/py_srvcli/build/lib/py_srvcli
+[0.421s] copying py_srvcli/__init__.py -> /home/parallels/code/ros2-test/example/build/py_srvcli/build/lib/py_srvcli
+[0.421s] running install
+[0.422s] running install_lib
+[0.422s] creating /home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.422s] copying /home/parallels/code/ros2-test/example/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.422s] copying /home/parallels/code/ros2-test/example/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.423s] copying /home/parallels/code/ros2-test/example/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.423s] byte-compiling /home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+[0.424s] byte-compiling /home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+[0.424s] byte-compiling /home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc
+[0.424s] running install_data
+[0.424s] creating /home/parallels/code/ros2-test/example/install/py_srvcli/share/ament_index
+[0.424s] creating /home/parallels/code/ros2-test/example/install/py_srvcli/share/ament_index/resource_index
+[0.424s] creating /home/parallels/code/ros2-test/example/install/py_srvcli/share/ament_index/resource_index/packages
+[0.424s] copying resource/py_srvcli -> /home/parallels/code/ros2-test/example/install/py_srvcli/share/ament_index/resource_index/packages
+[0.424s] copying package.xml -> /home/parallels/code/ros2-test/example/install/py_srvcli/share/py_srvcli
+[0.424s] running install_egg_info
+[0.425s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[0.425s] running install_scripts
+[0.435s] Installing client script to /home/parallels/code/ros2-test/example/install/py_srvcli/lib/py_srvcli
+[0.435s] Installing service script to /home/parallels/code/ros2-test/example/install/py_srvcli/lib/py_srvcli
+[0.435s] writing list of installed files to '/home/parallels/code/ros2-test/example/build/py_srvcli/install.log'
+[0.447s] Invoked command in '/home/parallels/code/ros2-test/example/src/py_srvcli' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/example/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/parallels/code/ros2-test/example/build/py_srvcli/build install --prefix /home/parallels/code/ros2-test/example/install/py_srvcli --record /home/parallels/code/ros2-test/example/build/py_srvcli/install.log --single-version-externally-managed

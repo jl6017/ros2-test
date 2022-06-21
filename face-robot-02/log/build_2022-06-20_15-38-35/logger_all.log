@@ -1,0 +1,327 @@
+[0.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff84047cd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff84047cd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff83fd2280>)
+[0.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.073s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/parallels/code/ros2-test/camera-test'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eye_cmds' with type 'ros.ament_python' and name 'eye_cmds'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mouth_cmds' with type 'ros.ament_python' and name 'mouth_cmds'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mp_input' with type 'ros.ament_python' and name 'mp_input'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neck_cmds' with type 'ros.ament_python' and name 'neck_cmds'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nn_computer' with type 'ros.ament_python' and name 'nn_computer'
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.093s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/parallels/code/ros2-test/camera-test/install
+[0.094s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_target' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_clean_first' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_force_configure' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'ament_cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.128s] DEBUG:colcon.colcon_core.verb:Building package 'eye_cmds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/code/ros2-test/camera-test/build/eye_cmds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/code/ros2-test/camera-test/install/eye_cmds', 'merge_install': False, 'path': '/home/parallels/code/ros2-test/camera-test/src/eye_cmds', 'symlink_install': False, 'test_result_base': None}
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_args' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_target' from command line to 'None'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.128s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_clean_first' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_force_configure' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'ament_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.129s] DEBUG:colcon.colcon_core.verb:Building package 'mouth_cmds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/code/ros2-test/camera-test/build/mouth_cmds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds', 'merge_install': False, 'path': '/home/parallels/code/ros2-test/camera-test/src/mouth_cmds', 'symlink_install': False, 'test_result_base': None}
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_target' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_clean_cache' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_clean_first' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_force_configure' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'ament_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'catkin_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.129s] DEBUG:colcon.colcon_core.verb:Building package 'mp_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/code/ros2-test/camera-test/build/mp_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/code/ros2-test/camera-test/install/mp_input', 'merge_install': False, 'path': '/home/parallels/code/ros2-test/camera-test/src/mp_input', 'symlink_install': False, 'test_result_base': None}
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_target' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_clean_first' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_force_configure' from command line to 'False'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'ament_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.129s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.129s] DEBUG:colcon.colcon_core.verb:Building package 'neck_cmds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/code/ros2-test/camera-test/build/neck_cmds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/code/ros2-test/camera-test/install/neck_cmds', 'merge_install': False, 'path': '/home/parallels/code/ros2-test/camera-test/src/neck_cmds', 'symlink_install': False, 'test_result_base': None}
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_target' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_clean_first' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_force_configure' from command line to 'False'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'ament_cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.130s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.130s] DEBUG:colcon.colcon_core.verb:Building package 'nn_computer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/code/ros2-test/camera-test/build/nn_computer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/code/ros2-test/camera-test/install/nn_computer', 'merge_install': False, 'path': '/home/parallels/code/ros2-test/camera-test/src/nn_computer', 'symlink_install': False, 'test_result_base': None}
+[0.130s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.131s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/code/ros2-test/camera-test/src/eye_cmds' with build type 'ament_python'
+[0.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('eye_cmds', 'ament_prefix_path')
+[0.133s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/hook/ament_prefix_path.ps1'
+[0.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/hook/ament_prefix_path.dsv'
+[0.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/hook/ament_prefix_path.sh'
+[0.134s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.138s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/code/ros2-test/camera-test/src/mouth_cmds' with build type 'ament_python'
+[0.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouth_cmds', 'ament_prefix_path')
+[0.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/hook/ament_prefix_path.ps1'
+[0.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/hook/ament_prefix_path.dsv'
+[0.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/hook/ament_prefix_path.sh'
+[0.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.145s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/code/ros2-test/camera-test/src/mp_input' with build type 'ament_python'
+[0.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_input', 'ament_prefix_path')
+[0.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/hook/ament_prefix_path.ps1'
+[0.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/hook/ament_prefix_path.dsv'
+[0.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/hook/ament_prefix_path.sh'
+[0.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.150s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/code/ros2-test/camera-test/src/neck_cmds' with build type 'ament_python'
+[0.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('neck_cmds', 'ament_prefix_path')
+[0.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/hook/ament_prefix_path.ps1'
+[0.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/hook/ament_prefix_path.dsv'
+[0.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/hook/ament_prefix_path.sh'
+[0.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/code/ros2-test/camera-test/src/eye_cmds'
+[0.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/code/ros2-test/camera-test/src/mouth_cmds'
+[0.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.487s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/code/ros2-test/camera-test/src/mp_input'
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.595s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/code/ros2-test/camera-test/src/neck_cmds'
+[0.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/code/ros2-test/camera-test/src/eye_cmds': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/eye_cmds --record /home/parallels/code/ros2-test/camera-test/build/eye_cmds/install.log --single-version-externally-managed
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/code/ros2-test/camera-test/src/neck_cmds': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/neck_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/neck_cmds --record /home/parallels/code/ros2-test/camera-test/build/neck_cmds/install.log --single-version-externally-managed
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/code/ros2-test/camera-test/src/mp_input': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mp_input/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_input build --build-base /home/parallels/code/ros2-test/camera-test/build/mp_input/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mp_input --record /home/parallels/code/ros2-test/camera-test/build/mp_input/install.log --single-version-externally-managed
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/code/ros2-test/camera-test/src/mouth_cmds': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/mouth_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mouth_cmds --record /home/parallels/code/ros2-test/camera-test/build/mouth_cmds/install.log --single-version-externally-managed
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/eye_cmds' for CMake module files
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/eye_cmds' for CMake config files
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/bin'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/pkgconfig/eye_cmds.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages'
+[0.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('eye_cmds', 'pythonpath')
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/hook/pythonpath.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/hook/pythonpath.dsv'
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/code/ros2-test/camera-test/src/eye_cmds' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/eye_cmds --record /home/parallels/code/ros2-test/camera-test/build/eye_cmds/install.log --single-version-externally-managed
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/hook/pythonpath.sh'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eye_cmds)
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/package.sh'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/package.bash'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/colcon-core/packages/eye_cmds)
+[0.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/code/ros2-test/camera-test/src/nn_computer' with build type 'ament_python'
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('nn_computer', 'ament_prefix_path')
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/hook/ament_prefix_path.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/hook/ament_prefix_path.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/hook/ament_prefix_path.sh'
+[0.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds' for CMake module files
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds' for CMake config files
+[0.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/code/ros2-test/camera-test/src/mouth_cmds' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/mouth_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mouth_cmds --record /home/parallels/code/ros2-test/camera-test/build/mouth_cmds/install.log --single-version-externally-managed
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/bin'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/pkgconfig/mouth_cmds.pc'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/python3.8/site-packages'
+[0.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouth_cmds', 'pythonpath')
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/hook/pythonpath.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/hook/pythonpath.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/hook/pythonpath.sh'
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/bin'
+[0.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mouth_cmds)
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/package.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/package.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/package.sh'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/package.bash'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/mouth_cmds/package.zsh'
+[0.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/share/colcon-core/packages/mouth_cmds)
+[1.108s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/code/ros2-test/camera-test/src/nn_computer'
+[1.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/neck_cmds' for CMake module files
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/code/ros2-test/camera-test/src/neck_cmds' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/neck_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/neck_cmds --record /home/parallels/code/ros2-test/camera-test/build/neck_cmds/install.log --single-version-externally-managed
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/neck_cmds' for CMake config files
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/bin'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/pkgconfig/neck_cmds.pc'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/lib/python3.8/site-packages'
+[1.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('neck_cmds', 'pythonpath')
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/hook/pythonpath.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/hook/pythonpath.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/hook/pythonpath.sh'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/bin'
+[1.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neck_cmds)
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/package.ps1'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/package.dsv'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/package.sh'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/package.bash'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/neck_cmds/package.zsh'
+[1.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/code/ros2-test/camera-test/install/neck_cmds/share/colcon-core/packages/neck_cmds)
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mp_input' for CMake module files
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/code/ros2-test/camera-test/src/mp_input' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mp_input/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_input build --build-base /home/parallels/code/ros2-test/camera-test/build/mp_input/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mp_input --record /home/parallels/code/ros2-test/camera-test/build/mp_input/install.log --single-version-externally-managed
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mp_input' for CMake config files
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mp_input/lib'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mp_input/bin'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mp_input/lib/pkgconfig/mp_input.pc'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mp_input/lib/python3.8/site-packages'
+[1.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_input', 'pythonpath')
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/hook/pythonpath.ps1'
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/hook/pythonpath.dsv'
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/hook/pythonpath.sh'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/mp_input/bin'
+[1.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_input)
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/package.ps1'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/package.dsv'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/package.sh'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/package.bash'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/mp_input/share/mp_input/package.zsh'
+[1.122s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/code/ros2-test/camera-test/install/mp_input/share/colcon-core/packages/mp_input)
+[1.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/code/ros2-test/camera-test/src/nn_computer': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_computer build --build-base /home/parallels/code/ros2-test/camera-test/build/nn_computer/build install --prefix /home/parallels/code/ros2-test/camera-test/install/nn_computer --record /home/parallels/code/ros2-test/camera-test/build/nn_computer/install.log --single-version-externally-managed
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/nn_computer' for CMake module files
+[1.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/code/ros2-test/camera-test/src/nn_computer' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_computer build --build-base /home/parallels/code/ros2-test/camera-test/build/nn_computer/build install --prefix /home/parallels/code/ros2-test/camera-test/install/nn_computer --record /home/parallels/code/ros2-test/camera-test/build/nn_computer/install.log --single-version-externally-managed
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/nn_computer' for CMake config files
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/nn_computer/bin'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/pkgconfig/nn_computer.pc'
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/nn_computer/lib/python3.8/site-packages'
+[1.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('nn_computer', 'pythonpath')
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/hook/pythonpath.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/hook/pythonpath.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/hook/pythonpath.sh'
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/code/ros2-test/camera-test/install/nn_computer/bin'
+[1.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nn_computer)
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/package.ps1'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/package.dsv'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/package.sh'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/package.bash'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/nn_computer/package.zsh'
+[1.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/code/ros2-test/camera-test/install/nn_computer/share/colcon-core/packages/nn_computer)
+[1.466s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.467s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.471s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.480s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/code/ros2-test/camera-test/install/local_setup.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parallels/code/ros2-test/camera-test/install/_local_setup_util_ps1.py'
+[1.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/code/ros2-test/camera-test/install/setup.ps1'
+[1.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/code/ros2-test/camera-test/install/local_setup.sh'
+[1.484s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parallels/code/ros2-test/camera-test/install/_local_setup_util_sh.py'
+[1.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/code/ros2-test/camera-test/install/setup.sh'
+[1.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/code/ros2-test/camera-test/install/local_setup.bash'
+[1.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/code/ros2-test/camera-test/install/setup.bash'
+[1.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/code/ros2-test/camera-test/install/local_setup.zsh'
+[1.486s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/code/ros2-test/camera-test/install/setup.zsh'

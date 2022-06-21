@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/eye_cmds/eye_cmds.egg-info
+writing ../../build/eye_cmds/eye_cmds.egg-info/PKG-INFO
+writing dependency_links to ../../build/eye_cmds/eye_cmds.egg-info/dependency_links.txt
+writing entry points to ../../build/eye_cmds/eye_cmds.egg-info/entry_points.txt
+writing requirements to ../../build/eye_cmds/eye_cmds.egg-info/requires.txt
+writing top-level names to ../../build/eye_cmds/eye_cmds.egg-info/top_level.txt
+writing manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'
+reading manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'
+writing manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build
+creating /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build/lib
+creating /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build/lib/eye_cmds
+copying eye_cmds/__init__.py -> /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build/lib/eye_cmds
+running install
+running install_lib
+creating /home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages/eye_cmds
+copying /home/parallels/code/ros2-test/camera-test/build/eye_cmds/build/lib/eye_cmds/__init__.py -> /home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages/eye_cmds
+byte-compiling /home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages/eye_cmds/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/ament_index
+creating /home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/ament_index/resource_index
+creating /home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/ament_index/resource_index/packages
+copying resource/eye_cmds -> /home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/code/ros2-test/camera-test/install/eye_cmds/share/eye_cmds
+running install_egg_info
+Copying ../../build/eye_cmds/eye_cmds.egg-info to /home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/python3.8/site-packages/eye_cmds-0.0.0-py3.8.egg-info
+running install_scripts
+Installing eye_node script to /home/parallels/code/ros2-test/camera-test/install/eye_cmds/lib/eye_cmds
+writing list of installed files to '/home/parallels/code/ros2-test/camera-test/build/eye_cmds/install.log'

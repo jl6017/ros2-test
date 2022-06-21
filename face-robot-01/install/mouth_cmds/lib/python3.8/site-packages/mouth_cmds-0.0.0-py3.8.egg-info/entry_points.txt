@@ -1,0 +1,3 @@
+[console_scripts]
+mouth_node = mouth_cmds.mouthcmds:main
+

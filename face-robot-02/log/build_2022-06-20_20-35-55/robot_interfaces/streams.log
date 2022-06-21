@@ -1,0 +1,63 @@
+[0.010s] Invoking command in '/home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/parallels/code/ros2-test/face-robot-02/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/parallels/code/ros2-test/face-robot-02/install/robot_interfaces
+[0.112s] -- The C compiler identification is GNU 9.4.0
+[0.190s] -- The CXX compiler identification is GNU 9.4.0
+[0.197s] -- Check for working C compiler: /usr/bin/cc
+[0.251s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.252s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.309s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.366s] -- Detecting CXX compiler ABI info
+[0.420s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.437s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.456s] -- Found PythonInterp: /home/parallels/miniconda3/bin/python3 (found suitable version "3.9.12", minimum required is "3") 
+[0.456s] -- Using PYTHON_EXECUTABLE: /home/parallels/miniconda3/bin/python3
+[0.547s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.578s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.653s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.676s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.782s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.821s] -- Found PythonInterp: /home/parallels/miniconda3/bin/python3 (found version "3.9.12") 
+[0.853s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.853s]   execute_process(/home/parallels/miniconda3/bin/python3 -m rosidl_adapter
+[0.853s]   --package-name robot_interfaces --arguments-file
+[0.853s]   /home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces/rosidl_adapter__arguments__robot_interfaces.json
+[0.853s]   --output-dir
+[0.853s]   /home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces/rosidl_adapter/robot_interfaces
+[0.853s]   --output-file
+[0.853s]   /home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces/rosidl_adapter/robot_interfaces.idls)
+[0.853s]   returned error code 1:
+[0.853s] 
+[0.853s]   Traceback (most recent call last):
+[0.853s] 
+[0.853s]     File "/home/parallels/miniconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[0.853s]       return _run_code(code, main_globals, None,
+[0.853s]     File "/home/parallels/miniconda3/lib/python3.9/runpy.py", line 87, in _run_code
+[0.853s]       exec(code, run_globals)
+[0.854s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.854s]       sys.exit(main())
+[0.854s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.854s]       abs_idl_file = convert_to_idl(
+[0.854s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl
+[0.854s]       from rosidl_adapter.srv import convert_srv_to_idl
+[0.854s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>
+[0.854s]       from rosidl_adapter.resource import expand_template
+[0.854s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.854s]       import em
+[0.854s] 
+[0.854s]   ModuleNotFoundError: No module named 'em'
+[0.854s] 
+[0.854s] Call Stack (most recent call first):
+[0.854s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.854s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.854s] 
+[0.854s] 
+[0.854s] -- Configuring incomplete, errors occurred!
+[0.854s] See also "/home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.859s] Invoked command in '/home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/parallels/code/ros2-test/face-robot-02/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/parallels/code/ros2-test/face-robot-02/install/robot_interfaces

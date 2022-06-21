@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000089] (-) JobUnselected: {'identifier': 'eye_cmds'}
+[0.000111] (-) JobUnselected: {'identifier': 'mouth_cmds'}
+[0.000126] (-) JobUnselected: {'identifier': 'mp_input'}
+[0.000216] (-) JobUnselected: {'identifier': 'neck_cmds'}
+[0.000238] (-) JobUnselected: {'identifier': 'nn_computer'}
+[0.000249] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.000261] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.023258] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 1}
+[0.033732] (-) EventReactorShutdown: {}

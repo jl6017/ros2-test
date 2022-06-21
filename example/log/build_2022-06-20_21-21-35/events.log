@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000170] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.000181] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000190] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.000199] (-) EventReactorShutdown: {}

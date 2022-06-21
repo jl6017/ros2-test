@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/parallels/code/ros2-test/face-robot-02/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/parallels/code/ros2-test/face-robot-02/install/robot_interfaces
+[0.021s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.037s] -- Using PYTHON_EXECUTABLE: /home/parallels/miniconda3/bin/python3
+[0.050s] Traceback (most recent call last):
+[0.050s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.050s]     from ament_package.templates import get_environment_hook_template_path
+[0.050s] ModuleNotFoundError: No module named 'ament_package'
+[0.052s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.052s]   execute_process(/home/parallels/miniconda3/bin/python3
+[0.052s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.052s]   /home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces/ament_cmake_package_templates/templates.cmake)
+[0.052s]   returned error code 1
+[0.052s] Call Stack (most recent call first):
+[0.052s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.052s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.052s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.052s]   CMakeLists.txt:19 (find_package)
+[0.052s] 
+[0.052s] 
+[0.052s] -- Configuring incomplete, errors occurred!
+[0.052s] See also "/home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.055s] Invoked command in '/home/parallels/code/ros2-test/face-robot-02/build/robot_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/parallels/code/ros2-test/face-robot-02/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/parallels/code/ros2-test/face-robot-02/install/robot_interfaces

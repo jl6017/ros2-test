@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.002611] (-) JobUnselected: {'identifier': 'eye_cmds'}
+[0.002667] (-) JobUnselected: {'identifier': 'mouth_cmds'}
+[0.002698] (-) JobUnselected: {'identifier': 'mp_input'}
+[0.002725] (-) JobUnselected: {'identifier': 'neck_cmds'}
+[0.002752] (-) JobUnselected: {'identifier': 'nn_computer'}
+[0.002779] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.003041] (-) EventReactorShutdown: {}

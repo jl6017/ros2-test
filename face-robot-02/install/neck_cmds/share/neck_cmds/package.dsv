@@ -1,0 +1,6 @@
+source;share/neck_cmds/hook/pythonpath.ps1
+source;share/neck_cmds/hook/pythonpath.dsv
+source;share/neck_cmds/hook/pythonpath.sh
+source;share/neck_cmds/hook/ament_prefix_path.ps1
+source;share/neck_cmds/hook/ament_prefix_path.dsv
+source;share/neck_cmds/hook/ament_prefix_path.sh

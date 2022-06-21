@@ -1,0 +1,21 @@
+[1.396s] Invoking command in '/home/parallels/code/ros2-test/camera-test/src/mouth_cmds': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/mouth_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mouth_cmds --record /home/parallels/code/ros2-test/camera-test/build/mouth_cmds/install.log --single-version-externally-managed
+[1.708s] running egg_info
+[1.714s] writing ../../build/mouth_cmds/mouth_cmds.egg-info/PKG-INFO
+[1.714s] writing dependency_links to ../../build/mouth_cmds/mouth_cmds.egg-info/dependency_links.txt
+[1.714s] writing entry points to ../../build/mouth_cmds/mouth_cmds.egg-info/entry_points.txt
+[1.715s] writing requirements to ../../build/mouth_cmds/mouth_cmds.egg-info/requires.txt
+[1.715s] writing top-level names to ../../build/mouth_cmds/mouth_cmds.egg-info/top_level.txt
+[1.805s] reading manifest file '../../build/mouth_cmds/mouth_cmds.egg-info/SOURCES.txt'
+[1.818s] writing manifest file '../../build/mouth_cmds/mouth_cmds.egg-info/SOURCES.txt'
+[1.818s] running build
+[1.818s] running build_py
+[1.818s] running install
+[1.819s] running install_lib
+[1.820s] running install_data
+[1.820s] running install_egg_info
+[1.821s] removing '/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[1.834s] Copying ../../build/mouth_cmds/mouth_cmds.egg-info to /home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds-0.0.0-py3.8.egg-info
+[1.834s] running install_scripts
+[1.874s] Installing mouth_node script to /home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/mouth_cmds
+[1.887s] writing list of installed files to '/home/parallels/code/ros2-test/camera-test/build/mouth_cmds/install.log'
+[1.982s] Invoked command in '/home/parallels/code/ros2-test/camera-test/src/mouth_cmds' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/parallels/code/ros2-test/camera-test/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/parallels/code/ros2-test/camera-test/build/mouth_cmds/build install --prefix /home/parallels/code/ros2-test/camera-test/install/mouth_cmds --record /home/parallels/code/ros2-test/camera-test/build/mouth_cmds/install.log --single-version-externally-managed
