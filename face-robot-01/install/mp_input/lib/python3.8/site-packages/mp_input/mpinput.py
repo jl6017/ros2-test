@@ -50,7 +50,7 @@ class mpNode(Node):
                 refine_landmarks=True,
                 min_detection_confidence=0.5,
                 min_tracking_confidence=0.5)
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(4)
 
         while cap.isOpened():
             success, image = cap.read()

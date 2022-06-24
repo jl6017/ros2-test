@@ -1,6 +1,12 @@
+source;share/nn_computer/hook/path.ps1
+source;share/nn_computer/hook/path.dsv
+source;share/nn_computer/hook/path.sh
 source;share/nn_computer/hook/pythonpath.ps1
 source;share/nn_computer/hook/pythonpath.dsv
 source;share/nn_computer/hook/pythonpath.sh
+source;share/nn_computer/hook/pythonscriptspath.ps1
+source;share/nn_computer/hook/pythonscriptspath.dsv
+source;share/nn_computer/hook/pythonscriptspath.sh
 source;share/nn_computer/hook/ament_prefix_path.ps1
 source;share/nn_computer/hook/ament_prefix_path.dsv
 source;share/nn_computer/hook/ament_prefix_path.sh

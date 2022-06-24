@@ -1,0 +1,297 @@
+[0.000000] (-) TimerEvent: {}
+[0.001524] (eye_cmds) JobQueued: {'identifier': 'eye_cmds', 'dependencies': OrderedDict()}
+[0.002908] (eyeball_cmds) JobQueued: {'identifier': 'eyeball_cmds', 'dependencies': OrderedDict()}
+[0.003743] (mouth_cmds) JobQueued: {'identifier': 'mouth_cmds', 'dependencies': OrderedDict()}
+[0.004948] (mp_input) JobQueued: {'identifier': 'mp_input', 'dependencies': OrderedDict()}
+[0.007675] (neck_cmds) JobQueued: {'identifier': 'neck_cmds', 'dependencies': OrderedDict()}
+[0.024028] (nn_computer) JobQueued: {'identifier': 'nn_computer', 'dependencies': OrderedDict()}
+[0.024769] (eye_cmds) JobStarted: {'identifier': 'eye_cmds'}
+[0.063151] (eyeball_cmds) JobStarted: {'identifier': 'eyeball_cmds'}
+[0.108204] (mouth_cmds) JobStarted: {'identifier': 'mouth_cmds'}
+[0.114411] (-) TimerEvent: {}
+[0.162469] (mp_input) JobStarted: {'identifier': 'mp_input'}
+[0.214752] (-) TimerEvent: {}
+[0.316916] (-) TimerEvent: {}
+[0.419121] (-) TimerEvent: {}
+[0.520070] (-) TimerEvent: {}
+[0.621102] (-) TimerEvent: {}
+[0.722142] (-) TimerEvent: {}
+[0.823091] (-) TimerEvent: {}
+[0.924619] (-) TimerEvent: {}
+[1.025550] (-) TimerEvent: {}
+[1.126561] (-) TimerEvent: {}
+[1.229030] (-) TimerEvent: {}
+[1.331125] (-) TimerEvent: {}
+[1.432696] (-) TimerEvent: {}
+[1.533599] (-) TimerEvent: {}
+[1.634578] (-) TimerEvent: {}
+[1.735555] (-) TimerEvent: {}
+[1.836487] (-) TimerEvent: {}
+[1.937478] (-) TimerEvent: {}
+[2.038543] (-) TimerEvent: {}
+[2.142455] (-) TimerEvent: {}
+[2.244621] (-) TimerEvent: {}
+[2.346448] (-) TimerEvent: {}
+[2.447345] (-) TimerEvent: {}
+[2.548135] (-) TimerEvent: {}
+[2.649086] (-) TimerEvent: {}
+[2.750077] (-) TimerEvent: {}
+[2.850958] (-) TimerEvent: {}
+[2.951761] (-) TimerEvent: {}
+[3.053445] (-) TimerEvent: {}
+[3.155422] (-) TimerEvent: {}
+[3.257329] (-) TimerEvent: {}
+[3.358355] (-) TimerEvent: {}
+[3.459268] (-) TimerEvent: {}
+[3.560096] (-) TimerEvent: {}
+[3.660943] (-) TimerEvent: {}
+[3.761845] (-) TimerEvent: {}
+[3.862805] (-) TimerEvent: {}
+[3.963652] (-) TimerEvent: {}
+[4.064658] (-) TimerEvent: {}
+[4.166141] (-) TimerEvent: {}
+[4.268536] (-) TimerEvent: {}
+[4.370655] (-) TimerEvent: {}
+[4.472606] (-) TimerEvent: {}
+[4.573507] (-) TimerEvent: {}
+[4.674408] (-) TimerEvent: {}
+[4.775235] (-) TimerEvent: {}
+[4.876077] (-) TimerEvent: {}
+[4.976883] (-) TimerEvent: {}
+[5.077769] (-) TimerEvent: {}
+[5.178674] (-) TimerEvent: {}
+[5.279512] (-) TimerEvent: {}
+[5.380350] (-) TimerEvent: {}
+[5.481180] (-) TimerEvent: {}
+[5.582144] (-) TimerEvent: {}
+[5.683014] (-) TimerEvent: {}
+[5.783867] (-) TimerEvent: {}
+[5.884697] (-) TimerEvent: {}
+[5.985650] (-) TimerEvent: {}
+[6.054737] (eye_cmds) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/eye_cmds', 'build', '--build-base', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/build', 'install', '--record', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/install.log', '--single-version-externally-managed'], 'cwd': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eye_cmds', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_AGENT_PID': '2823', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nvidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2635', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nvidia', 'JOURNAL_STREAM': '7:62107', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2859,unix/ubuntu:/tmp/.ICE-unix/2859', 'INVOCATION_ID': '3f1e0777b9d54d7f9e6aae6ef07fc75d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/650f1ef6_b919_4a0f_a315_2d26f6341b45', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[6.087425] (-) TimerEvent: {}
+[6.189490] (-) TimerEvent: {}
+[6.290509] (-) TimerEvent: {}
+[6.391417] (-) TimerEvent: {}
+[6.492447] (-) TimerEvent: {}
+[6.598249] (-) TimerEvent: {}
+[6.701184] (-) TimerEvent: {}
+[6.802185] (-) TimerEvent: {}
+[6.814588] (mouth_cmds) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mouth_cmds', 'build', '--build-base', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build', 'install', '--record', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/install.log', '--single-version-externally-managed'], 'cwd': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mouth_cmds', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_AGENT_PID': '2823', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nvidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2635', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nvidia', 'JOURNAL_STREAM': '7:62107', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2859,unix/ubuntu:/tmp/.ICE-unix/2859', 'INVOCATION_ID': '3f1e0777b9d54d7f9e6aae6ef07fc75d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/650f1ef6_b919_4a0f_a315_2d26f6341b45', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[6.902793] (-) TimerEvent: {}
+[7.004641] (-) TimerEvent: {}
+[7.105557] (-) TimerEvent: {}
+[7.206431] (-) TimerEvent: {}
+[7.307263] (-) TimerEvent: {}
+[7.390807] (eye_cmds) StdoutLine: {'line': b'running egg_info\n'}
+[7.395810] (eye_cmds) StdoutLine: {'line': b'writing ../../build/eye_cmds/eye_cmds.egg-info/PKG-INFO\n'}
+[7.398732] (eye_cmds) StdoutLine: {'line': b'writing dependency_links to ../../build/eye_cmds/eye_cmds.egg-info/dependency_links.txt\n'}
+[7.401389] (eye_cmds) StdoutLine: {'line': b'writing entry points to ../../build/eye_cmds/eye_cmds.egg-info/entry_points.txt\n'}
+[7.403944] (eye_cmds) StdoutLine: {'line': b'writing requirements to ../../build/eye_cmds/eye_cmds.egg-info/requires.txt\n'}
+[7.406116] (eye_cmds) StdoutLine: {'line': b'writing top-level names to ../../build/eye_cmds/eye_cmds.egg-info/top_level.txt\n'}
+[7.407376] (-) TimerEvent: {}
+[7.505397] (eyeball_cmds) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/eyeball_cmds', 'build', '--build-base', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/build', 'install', '--record', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log', '--single-version-externally-managed'], 'cwd': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eyeball_cmds', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_AGENT_PID': '2823', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nvidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2635', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nvidia', 'JOURNAL_STREAM': '7:62107', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2859,unix/ubuntu:/tmp/.ICE-unix/2859', 'INVOCATION_ID': '3f1e0777b9d54d7f9e6aae6ef07fc75d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/650f1ef6_b919_4a0f_a315_2d26f6341b45', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[7.509239] (-) TimerEvent: {}
+[7.598134] (eye_cmds) StdoutLine: {'line': b"reading manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'\n"}
+[7.606551] (eye_cmds) StdoutLine: {'line': b"writing manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'\n"}
+[7.609115] (eye_cmds) StdoutLine: {'line': b'running build\n'}
+[7.609964] (-) TimerEvent: {}
+[7.612120] (eye_cmds) StdoutLine: {'line': b'running build_py\n'}
+[7.614599] (eye_cmds) StdoutLine: {'line': b'running install\n'}
+[7.619948] (eye_cmds) StdoutLine: {'line': b'running install_lib\n'}
+[7.625571] (eye_cmds) StdoutLine: {'line': b'running install_data\n'}
+[7.628663] (eye_cmds) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.634467] (eye_cmds) StdoutLine: {'line': b"removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages/eye_cmds-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.639603] (eye_cmds) StdoutLine: {'line': b'Copying ../../build/eye_cmds/eye_cmds.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages/eye_cmds-0.0.0-py3.8.egg-info\n'}
+[7.640633] (eye_cmds) StdoutLine: {'line': b'running install_scripts\n'}
+[7.710400] (-) TimerEvent: {}
+[7.713835] (eye_cmds) StdoutLine: {'line': b'Installing eye_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/bin\n'}
+[7.716172] (eye_cmds) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/install.log'\n"}
+[7.814204] (-) TimerEvent: {}
+[7.840310] (eye_cmds) CommandEnded: {'returncode': 0}
+[7.917496] (-) TimerEvent: {}
+[8.021030] (-) TimerEvent: {}
+[8.062755] (eye_cmds) JobEnded: {'identifier': 'eye_cmds', 'rc': 0}
+[8.076740] (neck_cmds) JobStarted: {'identifier': 'neck_cmds'}
+[8.124538] (-) TimerEvent: {}
+[8.137154] (mp_input) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mp_input', 'build', '--build-base', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/build', 'install', '--record', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/install.log', '--single-version-externally-managed'], 'cwd': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mp_input', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_AGENT_PID': '2823', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nvidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2635', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nvidia', 'JOURNAL_STREAM': '7:62107', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2859,unix/ubuntu:/tmp/.ICE-unix/2859', 'INVOCATION_ID': '3f1e0777b9d54d7f9e6aae6ef07fc75d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/650f1ef6_b919_4a0f_a315_2d26f6341b45', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[8.225539] (-) TimerEvent: {}
+[8.327697] (-) TimerEvent: {}
+[8.428639] (-) TimerEvent: {}
+[8.500447] (mouth_cmds) StdoutLine: {'line': b'running egg_info\n'}
+[8.514996] (mouth_cmds) StdoutLine: {'line': b'writing ../../build/mouth_cmds/mouth_cmds.egg-info/PKG-INFO\n'}
+[8.516516] (mouth_cmds) StdoutLine: {'line': b'writing dependency_links to ../../build/mouth_cmds/mouth_cmds.egg-info/dependency_links.txt\n'}
+[8.518392] (mouth_cmds) StdoutLine: {'line': b'writing entry points to ../../build/mouth_cmds/mouth_cmds.egg-info/entry_points.txt\n'}
+[8.518901] (mouth_cmds) StdoutLine: {'line': b'writing requirements to ../../build/mouth_cmds/mouth_cmds.egg-info/requires.txt\n'}
+[8.519309] (mouth_cmds) StdoutLine: {'line': b'writing top-level names to ../../build/mouth_cmds/mouth_cmds.egg-info/top_level.txt\n'}
+[8.528866] (-) TimerEvent: {}
+[8.629749] (-) TimerEvent: {}
+[8.730892] (-) TimerEvent: {}
+[8.831833] (-) TimerEvent: {}
+[8.885231] (mouth_cmds) StdoutLine: {'line': b"reading manifest file '../../build/mouth_cmds/mouth_cmds.egg-info/SOURCES.txt'\n"}
+[8.887323] (mouth_cmds) StdoutLine: {'line': b"writing manifest file '../../build/mouth_cmds/mouth_cmds.egg-info/SOURCES.txt'\n"}
+[8.888935] (mouth_cmds) StdoutLine: {'line': b'running build\n'}
+[8.889434] (mouth_cmds) StdoutLine: {'line': b'running build_py\n'}
+[8.891053] (mouth_cmds) StdoutLine: {'line': b'running install\n'}
+[8.910417] (mouth_cmds) StdoutLine: {'line': b'running install_lib\n'}
+[8.919374] (mouth_cmds) StdoutLine: {'line': b'running install_data\n'}
+[8.922133] (mouth_cmds) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.928502] (mouth_cmds) StdoutLine: {'line': b"removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.932012] (-) TimerEvent: {}
+[8.933219] (mouth_cmds) StdoutLine: {'line': b'Copying ../../build/mouth_cmds/mouth_cmds.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds-0.0.0-py3.8.egg-info\n'}
+[8.944802] (mouth_cmds) StdoutLine: {'line': b'running install_scripts\n'}
+[9.032231] (-) TimerEvent: {}
+[9.084861] (mouth_cmds) StdoutLine: {'line': b'Installing mouth_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/bin\n'}
+[9.100086] (mouth_cmds) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/install.log'\n"}
+[9.132433] (-) TimerEvent: {}
+[9.233482] (-) TimerEvent: {}
+[9.334517] (-) TimerEvent: {}
+[9.350381] (eyeball_cmds) StdoutLine: {'line': b'running egg_info\n'}
+[9.351633] (eyeball_cmds) StdoutLine: {'line': b'writing ../../build/eyeball_cmds/eyeball_cmds.egg-info/PKG-INFO\n'}
+[9.355027] (eyeball_cmds) StdoutLine: {'line': b'writing dependency_links to ../../build/eyeball_cmds/eyeball_cmds.egg-info/dependency_links.txt\n'}
+[9.355709] (eyeball_cmds) StdoutLine: {'line': b'writing entry points to ../../build/eyeball_cmds/eyeball_cmds.egg-info/entry_points.txt\n'}
+[9.363166] (eyeball_cmds) StdoutLine: {'line': b'writing requirements to ../../build/eyeball_cmds/eyeball_cmds.egg-info/requires.txt\n'}
+[9.364709] (eyeball_cmds) StdoutLine: {'line': b'writing top-level names to ../../build/eyeball_cmds/eyeball_cmds.egg-info/top_level.txt\n'}
+[9.434816] (-) TimerEvent: {}
+[9.535793] (-) TimerEvent: {}
+[9.565270] (eyeball_cmds) StdoutLine: {'line': b"reading manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'\n"}
+[9.570297] (eyeball_cmds) StdoutLine: {'line': b"writing manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'\n"}
+[9.574811] (eyeball_cmds) StdoutLine: {'line': b'running build\n'}
+[9.575544] (eyeball_cmds) StdoutLine: {'line': b'running build_py\n'}
+[9.578549] (eyeball_cmds) StdoutLine: {'line': b'running install\n'}
+[9.585266] (eyeball_cmds) StdoutLine: {'line': b'running install_lib\n'}
+[9.592480] (eyeball_cmds) StdoutLine: {'line': b'running install_data\n'}
+[9.595343] (eyeball_cmds) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.602028] (eyeball_cmds) StdoutLine: {'line': b"removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.615415] (eyeball_cmds) StdoutLine: {'line': b'Copying ../../build/eyeball_cmds/eyeball_cmds.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds-0.0.0-py3.8.egg-info\n'}
+[9.625958] (eyeball_cmds) StdoutLine: {'line': b'running install_scripts\n'}
+[9.636470] (-) TimerEvent: {}
+[9.737660] (-) TimerEvent: {}
+[9.789032] (eyeball_cmds) StdoutLine: {'line': b'Installing eyeball_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/bin\n'}
+[9.803342] (eyeball_cmds) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log'\n"}
+[9.816885] (mouth_cmds) CommandEnded: {'returncode': 0}
+[9.839882] (-) TimerEvent: {}
+[9.916889] (mouth_cmds) JobEnded: {'identifier': 'mouth_cmds', 'rc': 0}
+[9.926212] (nn_computer) JobStarted: {'identifier': 'nn_computer'}
+[9.940074] (-) TimerEvent: {}
+[10.047018] (-) TimerEvent: {}
+[10.049685] (mp_input) StdoutLine: {'line': b'running egg_info\n'}
+[10.051293] (mp_input) StdoutLine: {'line': b'writing ../../build/mp_input/mp_input.egg-info/PKG-INFO\n'}
+[10.052119] (mp_input) StdoutLine: {'line': b'writing dependency_links to ../../build/mp_input/mp_input.egg-info/dependency_links.txt\n'}
+[10.055296] (mp_input) StdoutLine: {'line': b'writing entry points to ../../build/mp_input/mp_input.egg-info/entry_points.txt\n'}
+[10.057336] (mp_input) StdoutLine: {'line': b'writing requirements to ../../build/mp_input/mp_input.egg-info/requires.txt\n'}
+[10.058772] (mp_input) StdoutLine: {'line': b'writing top-level names to ../../build/mp_input/mp_input.egg-info/top_level.txt\n'}
+[10.147670] (-) TimerEvent: {}
+[10.251113] (-) TimerEvent: {}
+[10.281727] (mp_input) StdoutLine: {'line': b"reading manifest file '../../build/mp_input/mp_input.egg-info/SOURCES.txt'\n"}
+[10.286876] (mp_input) StdoutLine: {'line': b"writing manifest file '../../build/mp_input/mp_input.egg-info/SOURCES.txt'\n"}
+[10.287707] (mp_input) StdoutLine: {'line': b'running build\n'}
+[10.288074] (mp_input) StdoutLine: {'line': b'running build_py\n'}
+[10.289762] (mp_input) StdoutLine: {'line': b'running install\n'}
+[10.293409] (mp_input) StdoutLine: {'line': b'running install_lib\n'}
+[10.308249] (mp_input) StdoutLine: {'line': b'running install_data\n'}
+[10.310999] (mp_input) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.318555] (mp_input) StdoutLine: {'line': b"removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages/mp_input-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[10.324090] (mp_input) StdoutLine: {'line': b'Copying ../../build/mp_input/mp_input.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages/mp_input-0.0.0-py3.8.egg-info\n'}
+[10.336639] (mp_input) StdoutLine: {'line': b'running install_scripts\n'}
+[10.351334] (-) TimerEvent: {}
+[10.410707] (mp_input) StdoutLine: {'line': b'Installing eye_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin\n'}
+[10.412253] (mp_input) StdoutLine: {'line': b'Installing eyeball_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin\n'}
+[10.413943] (mp_input) StdoutLine: {'line': b'Installing mouth_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin\n'}
+[10.417259] (mp_input) StdoutLine: {'line': b'Installing mpinput_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin\n'}
+[10.418227] (mp_input) StdoutLine: {'line': b'Installing neck_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin\n'}
+[10.419046] (mp_input) StdoutLine: {'line': b'Installing nn_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin\n'}
+[10.421754] (mp_input) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/install.log'\n"}
+[10.451548] (-) TimerEvent: {}
+[10.552528] (-) TimerEvent: {}
+[10.653430] (-) TimerEvent: {}
+[10.754326] (-) TimerEvent: {}
+[10.855254] (-) TimerEvent: {}
+[10.956179] (-) TimerEvent: {}
+[11.057170] (-) TimerEvent: {}
+[11.158128] (-) TimerEvent: {}
+[11.259039] (-) TimerEvent: {}
+[11.360593] (-) TimerEvent: {}
+[11.437255] (eyeball_cmds) CommandEnded: {'returncode': 0}
+[11.463514] (-) TimerEvent: {}
+[11.531998] (eyeball_cmds) JobEnded: {'identifier': 'eyeball_cmds', 'rc': 0}
+[11.541718] (mp_input) CommandEnded: {'returncode': 0}
+[11.563870] (-) TimerEvent: {}
+[11.606836] (mp_input) JobEnded: {'identifier': 'mp_input', 'rc': 0}
+[11.664567] (-) TimerEvent: {}
+[11.766623] (-) TimerEvent: {}
+[11.867596] (-) TimerEvent: {}
+[11.968383] (-) TimerEvent: {}
+[12.069254] (-) TimerEvent: {}
+[12.170193] (-) TimerEvent: {}
+[12.272664] (-) TimerEvent: {}
+[12.374798] (-) TimerEvent: {}
+[12.461379] (neck_cmds) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/neck_cmds', 'build', '--build-base', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build', 'install', '--record', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/install.log', '--single-version-externally-managed'], 'cwd': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/neck_cmds', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_AGENT_PID': '2823', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nvidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2635', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nvidia', 'JOURNAL_STREAM': '7:62107', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2859,unix/ubuntu:/tmp/.ICE-unix/2859', 'INVOCATION_ID': '3f1e0777b9d54d7f9e6aae6ef07fc75d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/650f1ef6_b919_4a0f_a315_2d26f6341b45', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[12.477395] (-) TimerEvent: {}
+[12.579412] (-) TimerEvent: {}
+[12.680507] (-) TimerEvent: {}
+[12.781566] (-) TimerEvent: {}
+[12.883056] (-) TimerEvent: {}
+[12.983991] (-) TimerEvent: {}
+[13.086316] (-) TimerEvent: {}
+[13.187493] (-) TimerEvent: {}
+[13.288368] (-) TimerEvent: {}
+[13.390490] (-) TimerEvent: {}
+[13.412708] (nn_computer) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nn_computer', 'build', '--build-base', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/build', 'install', '--record', '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/install.log', '--single-version-externally-managed'], 'cwd': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/nn_computer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'SSH_AGENT_PID': '2823', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nvidia', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2635', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nvidia', 'JOURNAL_STREAM': '7:62107', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2859,unix/ubuntu:/tmp/.ICE-unix/2859', 'INVOCATION_ID': '3f1e0777b9d54d7f9e6aae6ef07fc75d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/650f1ef6_b919_4a0f_a315_2d26f6341b45', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[13.490611] (-) TimerEvent: {}
+[13.594193] (-) TimerEvent: {}
+[13.695031] (-) TimerEvent: {}
+[13.770181] (neck_cmds) StdoutLine: {'line': b'running egg_info\n'}
+[13.772491] (neck_cmds) StdoutLine: {'line': b'writing ../../build/neck_cmds/neck_cmds.egg-info/PKG-INFO\n'}
+[13.774942] (neck_cmds) StdoutLine: {'line': b'writing dependency_links to ../../build/neck_cmds/neck_cmds.egg-info/dependency_links.txt\n'}
+[13.775977] (neck_cmds) StdoutLine: {'line': b'writing entry points to ../../build/neck_cmds/neck_cmds.egg-info/entry_points.txt\n'}
+[13.776667] (neck_cmds) StdoutLine: {'line': b'writing requirements to ../../build/neck_cmds/neck_cmds.egg-info/requires.txt\n'}
+[13.777238] (neck_cmds) StdoutLine: {'line': b'writing top-level names to ../../build/neck_cmds/neck_cmds.egg-info/top_level.txt\n'}
+[13.795254] (-) TimerEvent: {}
+[13.897179] (-) TimerEvent: {}
+[13.998088] (-) TimerEvent: {}
+[14.091908] (neck_cmds) StdoutLine: {'line': b"reading manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'\n"}
+[14.099084] (-) TimerEvent: {}
+[14.105276] (neck_cmds) StdoutLine: {'line': b"writing manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'\n"}
+[14.106206] (neck_cmds) StdoutLine: {'line': b'running build\n'}
+[14.106718] (neck_cmds) StdoutLine: {'line': b'running build_py\n'}
+[14.107301] (neck_cmds) StdoutLine: {'line': b'running install\n'}
+[14.110482] (neck_cmds) StdoutLine: {'line': b'running install_lib\n'}
+[14.120384] (neck_cmds) StdoutLine: {'line': b'running install_data\n'}
+[14.122095] (neck_cmds) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.143346] (neck_cmds) StdoutLine: {'line': b"removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[14.145108] (neck_cmds) StdoutLine: {'line': b'Copying ../../build/neck_cmds/neck_cmds.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info\n'}
+[14.154064] (neck_cmds) StdoutLine: {'line': b'running install_scripts\n'}
+[14.199274] (-) TimerEvent: {}
+[14.284587] (neck_cmds) StdoutLine: {'line': b'Installing neck_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/bin\n'}
+[14.291673] (neck_cmds) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/install.log'\n"}
+[14.299483] (-) TimerEvent: {}
+[14.400417] (-) TimerEvent: {}
+[14.416383] (nn_computer) StdoutLine: {'line': b'running egg_info\n'}
+[14.421148] (nn_computer) StdoutLine: {'line': b'writing ../../build/nn_computer/nn_computer.egg-info/PKG-INFO\n'}
+[14.423655] (nn_computer) StdoutLine: {'line': b'writing dependency_links to ../../build/nn_computer/nn_computer.egg-info/dependency_links.txt\n'}
+[14.425571] (nn_computer) StdoutLine: {'line': b'writing entry points to ../../build/nn_computer/nn_computer.egg-info/entry_points.txt\n'}
+[14.430927] (nn_computer) StdoutLine: {'line': b'writing requirements to ../../build/nn_computer/nn_computer.egg-info/requires.txt\n'}
+[14.437734] (nn_computer) StdoutLine: {'line': b'writing top-level names to ../../build/nn_computer/nn_computer.egg-info/top_level.txt\n'}
+[14.438172] (neck_cmds) CommandEnded: {'returncode': 0}
+[14.500582] (-) TimerEvent: {}
+[14.517243] (neck_cmds) JobEnded: {'identifier': 'neck_cmds', 'rc': 0}
+[14.579425] (nn_computer) StdoutLine: {'line': b"reading manifest file '../../build/nn_computer/nn_computer.egg-info/SOURCES.txt'\n"}
+[14.583821] (nn_computer) StdoutLine: {'line': b"writing manifest file '../../build/nn_computer/nn_computer.egg-info/SOURCES.txt'\n"}
+[14.585231] (nn_computer) StdoutLine: {'line': b'running build\n'}
+[14.585594] (nn_computer) StdoutLine: {'line': b'running build_py\n'}
+[14.586884] (nn_computer) StdoutLine: {'line': b'running install\n'}
+[14.589613] (nn_computer) StdoutLine: {'line': b'running install_lib\n'}
+[14.596033] (nn_computer) StdoutLine: {'line': b'running install_data\n'}
+[14.598115] (nn_computer) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.608506] (-) TimerEvent: {}
+[14.611397] (nn_computer) StdoutLine: {'line': b"removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages/nn_computer-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[14.617383] (nn_computer) StdoutLine: {'line': b'Copying ../../build/nn_computer/nn_computer.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages/nn_computer-0.0.0-py3.8.egg-info\n'}
+[14.620462] (nn_computer) StdoutLine: {'line': b'running install_scripts\n'}
+[14.683963] (nn_computer) StdoutLine: {'line': b'Installing nn_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/bin\n'}
+[14.688637] (nn_computer) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/install.log'\n"}
+[14.708761] (-) TimerEvent: {}
+[14.781386] (nn_computer) CommandEnded: {'returncode': 0}
+[14.808995] (-) TimerEvent: {}
+[14.854789] (nn_computer) JobEnded: {'identifier': 'nn_computer', 'rc': 0}
+[14.859409] (-) EventReactorShutdown: {}

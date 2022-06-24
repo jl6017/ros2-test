@@ -1,0 +1,29 @@
+[5.298s] Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mouth_cmds': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/install.log --single-version-externally-managed
+[6.240s] running egg_info
+[6.243s] writing ../../build/mouth_cmds/mouth_cmds.egg-info/PKG-INFO
+[6.245s] writing dependency_links to ../../build/mouth_cmds/mouth_cmds.egg-info/dependency_links.txt
+[6.247s] writing entry points to ../../build/mouth_cmds/mouth_cmds.egg-info/entry_points.txt
+[6.248s] writing requirements to ../../build/mouth_cmds/mouth_cmds.egg-info/requires.txt
+[6.249s] writing top-level names to ../../build/mouth_cmds/mouth_cmds.egg-info/top_level.txt
+[6.408s] reading manifest file '../../build/mouth_cmds/mouth_cmds.egg-info/SOURCES.txt'
+[6.413s] writing manifest file '../../build/mouth_cmds/mouth_cmds.egg-info/SOURCES.txt'
+[6.414s] running build
+[6.415s] running build_py
+[6.415s] copying mouth_cmds/mouthcmds.py -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build/lib/mouth_cmds
+[6.416s] copying mouth_cmds/__init__.py -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build/lib/mouth_cmds
+[6.416s] running install
+[6.421s] running install_lib
+[6.423s] copying /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build/lib/mouth_cmds/mouthcmds.py -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds
+[6.427s] copying /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build/lib/mouth_cmds/__init__.py -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds
+[6.427s] byte-compiling /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds/mouthcmds.py to mouthcmds.cpython-38.pyc
+[6.432s] byte-compiling /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds/__init__.py to __init__.cpython-38.pyc
+[6.447s] running install_data
+[6.448s] copying resource/mouth_cmds -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/ament_index/resource_index/packages
+[6.449s] copying package.xml -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds
+[6.449s] running install_egg_info
+[6.456s] removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[6.458s] Copying ../../build/mouth_cmds/mouth_cmds.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds-0.0.0-py3.8.egg-info
+[6.462s] running install_scripts
+[6.532s] Installing mouth_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/bin
+[6.540s] writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/install.log'
+[6.675s] Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mouth_cmds' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/install.log --single-version-externally-managed
