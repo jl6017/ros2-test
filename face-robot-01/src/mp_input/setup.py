@@ -28,6 +28,7 @@ setup(
             "eye_node = eye_cmds.eyecmds:main",
             "mouth_node = mouth_cmds.mouthcmds:main",
             "neck_node = neck_cmds.neckcmds:main",
+            "eyeball_node = eyeball_cmds.eyeballcmds:main",
             "mpinput_node = mp_input.mpinput:main",
         ],
     },

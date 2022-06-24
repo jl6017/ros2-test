@@ -1,0 +1,3 @@
+[console_scripts]
+eyeball_node = eyeball_cmds.eyeballcmds:main
+

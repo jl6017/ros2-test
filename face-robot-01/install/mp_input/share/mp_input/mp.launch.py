@@ -19,9 +19,13 @@ def generate_launch_description():
         executable="neck_node"
         )                
     node_5 = Node(
+        package="eyeball_cmds",
+        executable="eyeball_node"
+        )
+    node_6 = Node(
         package="mp_input",
         executable="mpinput_node"
         )
 
-    launch_description = LaunchDescription([node_1, node_2, node_3, node_4, node_5])
+    launch_description = LaunchDescription([node_1, node_2, node_3, node_4, node_5, node_6])
     return launch_description

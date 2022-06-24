@@ -1,0 +1,37 @@
+[0.737s] Invoking command in '/home/parallels/code/ros2-test/face-robot-01/src/eyeball_cmds': PYTHONPATH=/home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eyeball_cmds build --build-base /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build install --prefix /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds --record /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log --single-version-externally-managed
+[0.846s] running egg_info
+[0.846s] creating ../../build/eyeball_cmds/eyeball_cmds.egg-info
+[0.846s] writing ../../build/eyeball_cmds/eyeball_cmds.egg-info/PKG-INFO
+[0.846s] writing dependency_links to ../../build/eyeball_cmds/eyeball_cmds.egg-info/dependency_links.txt
+[0.846s] writing entry points to ../../build/eyeball_cmds/eyeball_cmds.egg-info/entry_points.txt
+[0.846s] writing requirements to ../../build/eyeball_cmds/eyeball_cmds.egg-info/requires.txt
+[0.846s] writing top-level names to ../../build/eyeball_cmds/eyeball_cmds.egg-info/top_level.txt
+[0.847s] writing manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'
+[0.867s] reading manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'
+[0.867s] writing manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'
+[0.867s] running build
+[0.867s] running build_py
+[0.867s] creating /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build
+[0.868s] creating /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib
+[0.868s] creating /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds
+[0.868s] copying eyeball_cmds/eyeballcmds.py -> /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds
+[0.868s] copying eyeball_cmds/__init__.py -> /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds
+[0.868s] running install
+[0.869s] running install_lib
+[0.869s] creating /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds
+[0.869s] copying /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds/eyeballcmds.py -> /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds
+[0.869s] copying /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds/__init__.py -> /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds
+[0.870s] byte-compiling /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds/eyeballcmds.py to eyeballcmds.cpython-38.pyc
+[0.871s] byte-compiling /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds/__init__.py to __init__.cpython-38.pyc
+[0.871s] running install_data
+[0.871s] creating /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/ament_index
+[0.871s] creating /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/ament_index/resource_index
+[0.871s] creating /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/ament_index/resource_index/packages
+[0.871s] copying resource/eyeball_cmds -> /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/ament_index/resource_index/packages
+[0.871s] copying package.xml -> /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds
+[0.871s] running install_egg_info
+[0.873s] Copying ../../build/eyeball_cmds/eyeball_cmds.egg-info to /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds-0.0.0-py3.8.egg-info
+[0.873s] running install_scripts
+[0.884s] Installing eyeball_node script to /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/eyeball_cmds
+[0.884s] writing list of installed files to '/home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log'
+[0.919s] Invoked command in '/home/parallels/code/ros2-test/face-robot-01/src/eyeball_cmds' returned '0': PYTHONPATH=/home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eyeball_cmds build --build-base /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build install --prefix /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds --record /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log --single-version-externally-managed

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/eyeball_cmds/eyeball_cmds.egg-info
+writing ../../build/eyeball_cmds/eyeball_cmds.egg-info/PKG-INFO
+writing dependency_links to ../../build/eyeball_cmds/eyeball_cmds.egg-info/dependency_links.txt
+writing entry points to ../../build/eyeball_cmds/eyeball_cmds.egg-info/entry_points.txt
+writing requirements to ../../build/eyeball_cmds/eyeball_cmds.egg-info/requires.txt
+writing top-level names to ../../build/eyeball_cmds/eyeball_cmds.egg-info/top_level.txt
+writing manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'
+reading manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'
+writing manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build
+creating /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib
+creating /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds
+copying eyeball_cmds/eyeballcmds.py -> /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds
+copying eyeball_cmds/__init__.py -> /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds
+running install
+running install_lib
+creating /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds
+copying /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds/eyeballcmds.py -> /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds
+copying /home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/build/lib/eyeball_cmds/__init__.py -> /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds
+byte-compiling /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds/eyeballcmds.py to eyeballcmds.cpython-38.pyc
+byte-compiling /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/ament_index
+creating /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/ament_index/resource_index
+creating /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/ament_index/resource_index/packages
+copying resource/eyeball_cmds -> /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds
+running install_egg_info
+Copying ../../build/eyeball_cmds/eyeball_cmds.egg-info to /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds-0.0.0-py3.8.egg-info
+running install_scripts
+Installing eyeball_node script to /home/parallels/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/eyeball_cmds
+writing list of installed files to '/home/parallels/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log'

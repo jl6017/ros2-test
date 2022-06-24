@@ -1,0 +1,21 @@
+[0.681s] Invoking command in '/home/parallels/code/ros2-test/face-robot-01/src/mouth_cmds': PYTHONPATH=/home/parallels/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/parallels/code/ros2-test/face-robot-01/build/mouth_cmds/build install --prefix /home/parallels/code/ros2-test/face-robot-01/install/mouth_cmds --record /home/parallels/code/ros2-test/face-robot-01/build/mouth_cmds/install.log --single-version-externally-managed
+[0.793s] running egg_info
+[0.793s] writing ../../build/mouth_cmds/mouth_cmds.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ../../build/mouth_cmds/mouth_cmds.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../build/mouth_cmds/mouth_cmds.egg-info/entry_points.txt
+[0.794s] writing requirements to ../../build/mouth_cmds/mouth_cmds.egg-info/requires.txt
+[0.794s] writing top-level names to ../../build/mouth_cmds/mouth_cmds.egg-info/top_level.txt
+[0.814s] reading manifest file '../../build/mouth_cmds/mouth_cmds.egg-info/SOURCES.txt'
+[0.815s] writing manifest file '../../build/mouth_cmds/mouth_cmds.egg-info/SOURCES.txt'
+[0.815s] running build
+[0.815s] running build_py
+[0.815s] running install
+[0.816s] running install_lib
+[0.817s] running install_data
+[0.817s] running install_egg_info
+[0.818s] removing '/home/parallels/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[0.820s] Copying ../../build/mouth_cmds/mouth_cmds.egg-info to /home/parallels/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages/mouth_cmds-0.0.0-py3.8.egg-info
+[0.821s] running install_scripts
+[0.832s] Installing mouth_node script to /home/parallels/code/ros2-test/face-robot-01/install/mouth_cmds/lib/mouth_cmds
+[0.833s] writing list of installed files to '/home/parallels/code/ros2-test/face-robot-01/build/mouth_cmds/install.log'
+[0.862s] Invoked command in '/home/parallels/code/ros2-test/face-robot-01/src/mouth_cmds' returned '0': PYTHONPATH=/home/parallels/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/parallels/code/ros2-test/face-robot-01/build/mouth_cmds/build install --prefix /home/parallels/code/ros2-test/face-robot-01/install/mouth_cmds --record /home/parallels/code/ros2-test/face-robot-01/build/mouth_cmds/install.log --single-version-externally-managed

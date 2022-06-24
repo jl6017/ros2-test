@@ -1,0 +1,6 @@
+source;share/eyeball_cmds/hook/pythonpath.ps1
+source;share/eyeball_cmds/hook/pythonpath.dsv
+source;share/eyeball_cmds/hook/pythonpath.sh
+source;share/eyeball_cmds/hook/ament_prefix_path.ps1
+source;share/eyeball_cmds/hook/ament_prefix_path.dsv
+source;share/eyeball_cmds/hook/ament_prefix_path.sh

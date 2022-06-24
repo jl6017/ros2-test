@@ -1,0 +1,21 @@
+[0.469s] Invoking command in '/home/parallels/code/ros2-test/face-robot-01/src/neck_cmds': PYTHONPATH=/home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/build install --prefix /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds --record /home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/install.log --single-version-externally-managed
+[0.569s] running egg_info
+[0.570s] writing ../../build/neck_cmds/neck_cmds.egg-info/PKG-INFO
+[0.570s] writing dependency_links to ../../build/neck_cmds/neck_cmds.egg-info/dependency_links.txt
+[0.570s] writing entry points to ../../build/neck_cmds/neck_cmds.egg-info/entry_points.txt
+[0.570s] writing requirements to ../../build/neck_cmds/neck_cmds.egg-info/requires.txt
+[0.570s] writing top-level names to ../../build/neck_cmds/neck_cmds.egg-info/top_level.txt
+[0.587s] reading manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'
+[0.587s] writing manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'
+[0.588s] running build
+[0.588s] running build_py
+[0.588s] running install
+[0.588s] running install_lib
+[0.589s] running install_data
+[0.589s] running install_egg_info
+[0.590s] removing '/home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[0.590s] Copying ../../build/neck_cmds/neck_cmds.egg-info to /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info
+[0.590s] running install_scripts
+[0.600s] Installing neck_node script to /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/neck_cmds
+[0.600s] writing list of installed files to '/home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/install.log'
+[0.617s] Invoked command in '/home/parallels/code/ros2-test/face-robot-01/src/neck_cmds' returned '0': PYTHONPATH=/home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/build install --prefix /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds --record /home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/install.log --single-version-externally-managed

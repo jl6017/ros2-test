@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/neck_cmds/neck_cmds.egg-info/PKG-INFO
+writing dependency_links to ../../build/neck_cmds/neck_cmds.egg-info/dependency_links.txt
+writing entry points to ../../build/neck_cmds/neck_cmds.egg-info/entry_points.txt
+writing requirements to ../../build/neck_cmds/neck_cmds.egg-info/requires.txt
+writing top-level names to ../../build/neck_cmds/neck_cmds.egg-info/top_level.txt
+reading manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'
+writing manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'
+running build
+running build_py
+copying neck_cmds/neckcmds.py -> /home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/build/lib/neck_cmds
+copying neck_cmds/__init__.py -> /home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/build/lib/neck_cmds
+running install
+running install_lib
+copying /home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/build/lib/neck_cmds/neckcmds.py -> /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds
+copying /home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/build/lib/neck_cmds/__init__.py -> /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds
+byte-compiling /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds/neckcmds.py to neckcmds.cpython-38.pyc
+byte-compiling /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/neck_cmds -> /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds
+running install_egg_info
+removing '/home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/neck_cmds/neck_cmds.egg-info to /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info
+running install_scripts
+Installing neck_node script to /home/parallels/code/ros2-test/face-robot-01/install/neck_cmds/lib/neck_cmds
+writing list of installed files to '/home/parallels/code/ros2-test/face-robot-01/build/neck_cmds/install.log'
