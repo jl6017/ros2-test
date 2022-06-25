@@ -80,10 +80,9 @@ class mpNode(Node):
                     simple_lmks = matric2simple(metric_landmarks)
                     # to robot lmks
                     if self.i == 0:
-                        global H_static_face
-                        H_static_face = np.copy(simple_lmks)
+                        self.H_static_face = np.copy(simple_lmks)
 
-                    normalized_lmks = human2robot(simple_lmks, H_static_face)
+                    normalized_lmks = human2robot(simple_lmks, self.H_static_face)
                     # can be better.
                     normalized_lmks_2 = reorder_lmks(normalized_lmks)                
                     msg.data = np.reshape(normalized_lmks_2, 226).tolist()

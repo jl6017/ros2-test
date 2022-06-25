@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 import time
 from std_msgs.msg import Float64MultiArray
+from servo_motor_neck import *
 
 
 class neckSubscriber(Node):

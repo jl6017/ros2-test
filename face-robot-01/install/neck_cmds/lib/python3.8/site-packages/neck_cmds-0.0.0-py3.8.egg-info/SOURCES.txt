@@ -10,6 +10,7 @@ setup.py
 ../../build/neck_cmds/neck_cmds.egg-info/zip-safe
 neck_cmds/__init__.py
 neck_cmds/neckcmds.py
+neck_cmds/servo_motor_neck.py
 resource/neck_cmds
 test/test_copyright.py
 test/test_flake8.py
