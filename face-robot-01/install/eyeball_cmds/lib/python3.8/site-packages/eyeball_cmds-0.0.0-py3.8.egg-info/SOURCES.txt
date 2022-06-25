@@ -10,6 +10,7 @@ setup.py
 ../../build/eyeball_cmds/eyeball_cmds.egg-info/zip-safe
 eyeball_cmds/__init__.py
 eyeball_cmds/eyeballcmds.py
+eyeball_cmds/servo_motor_face.py
 resource/eyeball_cmds
 test/test_copyright.py
 test/test_flake8.py

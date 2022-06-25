@@ -6,7 +6,8 @@ import random
 ################# NECK #################
 ########################################
 from ctypes import *
-lib = CDLL("ctypes2/lx16a.so")
+file_path = "./src/neck_cmds/neck_cmds/"
+lib = CDLL(file_path + "ctypes2/lx16a.so")
 
 
 # motor ID from the bottom to the top:

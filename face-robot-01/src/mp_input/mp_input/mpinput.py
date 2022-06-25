@@ -24,6 +24,7 @@ class mpNode(Node):
         self.pub_position = self.create_publisher(Float64MultiArray, '/position', 10)
         self.i = 0
         self.run_pub()
+        self.cam_id = 0
 
     def run_pub(self):
         msg = Float64MultiArray()
@@ -50,7 +51,7 @@ class mpNode(Node):
                 refine_landmarks=True,
                 min_detection_confidence=0.5,
                 min_tracking_confidence=0.5)
-        cap = cv2.VideoCapture(4)
+        cap = cv2.VideoCapture(0)
 
         while cap.isOpened():
             success, image = cap.read()

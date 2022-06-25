@@ -1,0 +1,21 @@
+[8.650s] Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eye_cmds': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/install.log --single-version-externally-managed
+[9.915s] running egg_info
+[9.922s] writing ../../build/eye_cmds/eye_cmds.egg-info/PKG-INFO
+[9.926s] writing dependency_links to ../../build/eye_cmds/eye_cmds.egg-info/dependency_links.txt
+[9.930s] writing entry points to ../../build/eye_cmds/eye_cmds.egg-info/entry_points.txt
+[9.933s] writing requirements to ../../build/eye_cmds/eye_cmds.egg-info/requires.txt
+[9.935s] writing top-level names to ../../build/eye_cmds/eye_cmds.egg-info/top_level.txt
+[10.187s] reading manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'
+[10.193s] writing manifest file '../../build/eye_cmds/eye_cmds.egg-info/SOURCES.txt'
+[10.195s] running build
+[10.196s] running build_py
+[10.199s] running install
+[10.204s] running install_lib
+[10.213s] running install_data
+[10.217s] running install_egg_info
+[10.225s] removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages/eye_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[10.230s] Copying ../../build/eye_cmds/eye_cmds.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages/eye_cmds-0.0.0-py3.8.egg-info
+[10.237s] running install_scripts
+[10.360s] Installing eye_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/bin
+[10.363s] writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/install.log'
+[10.704s] Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eye_cmds' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/install.log --single-version-externally-managed

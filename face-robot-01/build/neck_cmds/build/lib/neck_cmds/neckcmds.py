@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 import time
 from std_msgs.msg import Float64MultiArray
-from servo_motor_neck import connect_usb
+from neck_cmds.servo_motor_neck import *
 # bug here
 
 class neckSubscriber(Node):

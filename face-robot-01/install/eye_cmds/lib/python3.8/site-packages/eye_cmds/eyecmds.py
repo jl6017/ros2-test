@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 import time
 from std_msgs.msg import Float64MultiArray
-
+from .servo_motor_face import *
 
 class eyeSubscriber(Node):
 
@@ -26,6 +26,7 @@ class eyeSubscriber(Node):
 
 
 def main(args=None):
+    slowly_open()
     rclpy.init(args=args)
 
     eye_subscriber = eyeSubscriber()
