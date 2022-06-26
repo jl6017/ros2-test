@@ -182,6 +182,14 @@ def slowly_open(random_time = False):
         l_eyelid_low.norm_act(1-0.85*(j+1)/steps) # 30, bigger than right
         time.sleep(0.02)
 
+def track_eye(data, kx = 0.05, ky = 0.05):
+    xs = data[0] / abs(data[2])
+    ys = data[1] / abs(data[2])
+    r_eye_yaw.norm_act(r_eye_yaw.norm_v_cur - kx * xs)
+    l_eye_yaw.norm_act(l_eye_yaw.norm_v_cur - kx * xs)
+
+    r_eye_pitch.norm_act(r_eye_pitch.norm_v_cur + ky * ys)
+    l_eye_pitch.norm_act(l_eye_pitch.norm_v_cur + ky * ys)
 
 # Generate random
 def act_rdm_cmd():

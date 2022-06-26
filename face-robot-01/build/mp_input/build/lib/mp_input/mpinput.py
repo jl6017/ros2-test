@@ -11,6 +11,7 @@ from .lmks_data.face_geometry import (
     get_metric_landmarks,
     procrustes_landmark_basis,
 )
+from .servo_motor_mp import *
 
 class mpNode(Node):
     """
@@ -93,13 +94,14 @@ class mpNode(Node):
                     new_time = time.time()
                     fps = 1. / (new_time - self.ctime)
                     self.ctime = new_time
-                    self.get_logger().info('Publishing: "%s", fps: "%s"' % (len(msg.data), int(fps)))
+                    # self.get_logger().info('Publishing: "%s", fps: "%s"' % (len(msg.data), int(fps)))
                     self.i += 1
         cap.isOpened()
 
 
 def main(args=None):
-
+    reset_face()
+    slowly_open()
     rclpy.init(args=args)
     mp_node = mpNode()
     rclpy.spin(mp_node)

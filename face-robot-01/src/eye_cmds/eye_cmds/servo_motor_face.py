@@ -174,9 +174,10 @@ eye_motors = [
 #         all_motors[i].act(static_face_data[i])
 
 def eye_move(data):
-    for i in range(eye_motors):
-        eye_motors[i].norm_act(data[i])
-        # here 
+    full_data = data * 2
+    for i in range(len(eye_motors)):
+        eye_motors[i].norm_act(full_data[i])
+        
 
 def slowly_open(random_time = False):
 

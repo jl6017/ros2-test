@@ -1,0 +1,27 @@
+[8.872s] Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/neck_cmds': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/install.log --single-version-externally-managed
+[10.207s] running egg_info
+[10.213s] writing ../../build/neck_cmds/neck_cmds.egg-info/PKG-INFO
+[10.221s] writing dependency_links to ../../build/neck_cmds/neck_cmds.egg-info/dependency_links.txt
+[10.222s] writing entry points to ../../build/neck_cmds/neck_cmds.egg-info/entry_points.txt
+[10.224s] writing requirements to ../../build/neck_cmds/neck_cmds.egg-info/requires.txt
+[10.226s] writing top-level names to ../../build/neck_cmds/neck_cmds.egg-info/top_level.txt
+[10.479s] reading manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'
+[10.487s] writing manifest file '../../build/neck_cmds/neck_cmds.egg-info/SOURCES.txt'
+[10.488s] running build
+[10.489s] running build_py
+[10.490s] copying neck_cmds/servo_motor_neck.py -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build/lib/neck_cmds
+[10.532s] copying neck_cmds/neckcmds.py -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build/lib/neck_cmds
+[10.537s] running install
+[10.539s] running install_lib
+[10.544s] copying /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build/lib/neck_cmds/servo_motor_neck.py -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds
+[10.552s] copying /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build/lib/neck_cmds/neckcmds.py -> /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds
+[10.581s] byte-compiling /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds/servo_motor_neck.py to servo_motor_neck.cpython-38.pyc
+[10.590s] byte-compiling /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds/neckcmds.py to neckcmds.cpython-38.pyc
+[10.592s] running install_data
+[10.593s] running install_egg_info
+[10.596s] removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[10.602s] Copying ../../build/neck_cmds/neck_cmds.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages/neck_cmds-0.0.0-py3.8.egg-info
+[10.611s] running install_scripts
+[10.666s] Installing neck_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/bin
+[10.670s] writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/install.log'
+[10.933s] Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/neck_cmds' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/install.log --single-version-externally-managed

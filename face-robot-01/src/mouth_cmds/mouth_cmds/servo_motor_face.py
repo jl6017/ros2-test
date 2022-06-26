@@ -159,6 +159,19 @@ all_motors = [m0, m1, m9, m2, m8, m3, m7, m4, m6, m5, jaw,
     l_eye_yaw, l_eye_pitch, l_eyelid_up, l_eyelid_low, l_eyebrow_outter, l_eyebrow_inner
 ]
 
+mouth_motors = [
+    m0, m1, m2, m3, m4, m5, m6, m7, m8, m9, jaw
+]
+
+def move_mouth(data):
+    # data: [m0, m1, m2, m3, m4, m5, jaw]
+    # full data: [m0, m1, m2, m3, m4, m5, m4, m3, m2, m1, jaw]
+    # test example: data=[0,1,2,3,4,5,'j'], data[:6] + data[4:0:-1] + data[6:]=[0,1,2,3,4,5,4,3,2,1,'j']
+    full_data = data[:6] + data[4:0:-1] + data[6:]
+    for i in range(len(mouth_motors)):
+        mouth_motors[i].norm_act(full_data[i])
+
+
 
 def reset_face():
     all_motors = [m0, m1, m9, m2, m8, m3, m7, m4, m6, m5, jaw, 

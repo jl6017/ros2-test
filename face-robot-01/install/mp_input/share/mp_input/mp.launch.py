@@ -27,5 +27,7 @@ def generate_launch_description():
         executable="mpinput_node"
         )
 
-    launch_description = LaunchDescription([node_1, node_2, node_3, node_4, node_5, node_6])
+    launch_description = LaunchDescription([node_1, node_2, node_3, node_4, node_5, node_6])  # all
+    # launch_description = LaunchDescription([node_1, node_2, node_3, node_6])  # expression
+    # launch_description = LaunchDescription([node_4, node_5, node_6])  # tracking
     return launch_description

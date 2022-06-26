@@ -23,7 +23,8 @@ class neckSubscriber(Node):
         new_time = time.time()
         fps = 1. / (new_time - self.ctime)
         self.ctime = new_time
-        self.get_logger().info('neck cmds:"%s" fps: "%s"' % (len(msg.data), int(fps)))
+        track_neck(msg.data)
+        self.get_logger().info('neck cmds:"%s" fps: "%s"' % (msg.data[0], int(fps)))
 
 
 def main(args=None):

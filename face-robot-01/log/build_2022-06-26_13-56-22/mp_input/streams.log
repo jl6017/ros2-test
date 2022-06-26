@@ -1,0 +1,26 @@
+[9.972s] Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mp_input': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_input build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/install.log --single-version-externally-managed
+[11.610s] running egg_info
+[11.612s] writing ../../build/mp_input/mp_input.egg-info/PKG-INFO
+[11.614s] writing dependency_links to ../../build/mp_input/mp_input.egg-info/dependency_links.txt
+[11.618s] writing entry points to ../../build/mp_input/mp_input.egg-info/entry_points.txt
+[11.629s] writing requirements to ../../build/mp_input/mp_input.egg-info/requires.txt
+[11.630s] writing top-level names to ../../build/mp_input/mp_input.egg-info/top_level.txt
+[11.631s] reading manifest file '../../build/mp_input/mp_input.egg-info/SOURCES.txt'
+[11.632s] writing manifest file '../../build/mp_input/mp_input.egg-info/SOURCES.txt'
+[11.636s] running build
+[11.637s] running build_py
+[11.639s] running install
+[11.643s] running install_lib
+[11.649s] running install_data
+[11.649s] running install_egg_info
+[11.652s] removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages/mp_input-0.0.0-py3.8.egg-info' (and everything under it)
+[11.655s] Copying ../../build/mp_input/mp_input.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages/mp_input-0.0.0-py3.8.egg-info
+[11.669s] running install_scripts
+[11.768s] Installing eye_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin
+[11.771s] Installing eyeball_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin
+[11.773s] Installing mouth_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin
+[11.777s] Installing mpinput_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin
+[11.779s] Installing neck_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin
+[11.781s] Installing nn_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin
+[11.783s] writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/install.log'
+[12.101s] Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mp_input' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_input build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/install.log --single-version-externally-managed

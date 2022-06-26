@@ -1,0 +1,21 @@
+[9.302s] Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eyeball_cmds': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eyeball_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log --single-version-externally-managed
+[10.650s] running egg_info
+[10.653s] writing ../../build/eyeball_cmds/eyeball_cmds.egg-info/PKG-INFO
+[10.654s] writing dependency_links to ../../build/eyeball_cmds/eyeball_cmds.egg-info/dependency_links.txt
+[10.655s] writing entry points to ../../build/eyeball_cmds/eyeball_cmds.egg-info/entry_points.txt
+[10.656s] writing requirements to ../../build/eyeball_cmds/eyeball_cmds.egg-info/requires.txt
+[10.657s] writing top-level names to ../../build/eyeball_cmds/eyeball_cmds.egg-info/top_level.txt
+[10.874s] reading manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'
+[10.878s] writing manifest file '../../build/eyeball_cmds/eyeball_cmds.egg-info/SOURCES.txt'
+[10.880s] running build
+[10.881s] running build_py
+[10.882s] running install
+[10.886s] running install_lib
+[10.894s] running install_data
+[10.895s] running install_egg_info
+[10.905s] removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds-0.0.0-py3.8.egg-info' (and everything under it)
+[10.907s] Copying ../../build/eyeball_cmds/eyeball_cmds.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages/eyeball_cmds-0.0.0-py3.8.egg-info
+[10.916s] running install_scripts
+[11.022s] Installing eyeball_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/bin
+[11.023s] writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log'
+[11.384s] Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eyeball_cmds' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eyeball_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log --single-version-externally-managed

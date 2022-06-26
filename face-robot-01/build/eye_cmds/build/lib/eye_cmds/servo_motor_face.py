@@ -154,20 +154,30 @@ ry_init, rp_init, ru_init, rl_init, ro_init, ri_init,
 ly_init, lp_init, lu_init, ll_init, lo_init, li_init
 ]
 
-all_motors = [m0, m1, m9, m2, m8, m3, m7, m4, m6, m5, jaw, 
-    r_eye_yaw, r_eye_pitch, r_eyelid_up, r_eyelid_low, r_eyebrow_outter, r_eyebrow_inner,
-    l_eye_yaw, l_eye_pitch, l_eyelid_up, l_eyelid_low, l_eyebrow_outter, l_eyebrow_inner
+# all_motors = [m0, m1, m9, m2, m8, m3, m7, m4, m6, m5, jaw, 
+#     r_eye_yaw, r_eye_pitch, r_eyelid_up, r_eyelid_low, r_eyebrow_outter, r_eyebrow_inner,
+#     l_eye_yaw, l_eye_pitch, l_eyelid_up, l_eyelid_low, l_eyebrow_outter, l_eyebrow_inner
+# ]
+
+eye_motors = [
+    r_eyebrow_outter, r_eyebrow_inner, r_eyelid_up, r_eyelid_low, 
+    l_eyebrow_outter, l_eyebrow_inner, l_eyelid_up, l_eyelid_low
 ]
 
 
-def reset_face():
-    all_motors = [m0, m1, m9, m2, m8, m3, m7, m4, m6, m5, jaw, 
-    r_eye_yaw, r_eye_pitch, r_eyelid_up, r_eyelid_low, r_eyebrow_outter, r_eyebrow_inner,
-    l_eye_yaw, l_eye_pitch, l_eyelid_up, l_eyelid_low, l_eyebrow_outter, l_eyebrow_inner
-    ]
-    for i in range(len(all_motors)):
-        all_motors[i].act(static_face_data[i])
+# def reset_face():
+#     all_motors = [m0, m1, m9, m2, m8, m3, m7, m4, m6, m5, jaw, 
+#     r_eye_yaw, r_eye_pitch, r_eyelid_up, r_eyelid_low, r_eyebrow_outter, r_eyebrow_inner,
+#     l_eye_yaw, l_eye_pitch, l_eyelid_up, l_eyelid_low, l_eyebrow_outter, l_eyebrow_inner
+#     ]
+#     for i in range(len(all_motors)):
+#         all_motors[i].act(static_face_data[i])
 
+def eye_move(data):
+    full_data = data * 2
+    for i in range(len(eye_motors)):
+        eye_motors[i].norm_act(full_data[i])
+        
 
 def slowly_open(random_time = False):
 
@@ -184,11 +194,11 @@ def slowly_open(random_time = False):
 
 
 # Generate random
-def act_rdm_cmd():
-    cmd = 0.25 * np.random.randint(0,5,11)
-    for i in range(11):
-        all_motors[i].norm_act(cmd[i])
-    return cmd
+# def act_rdm_cmd():
+#     cmd = 0.25 * np.random.randint(0,5,11)
+#     for i in range(11):
+#         all_motors[i].norm_act(cmd[i])
+#     return cmd
 
 if __name__ == "__main__":
     slowly_open()

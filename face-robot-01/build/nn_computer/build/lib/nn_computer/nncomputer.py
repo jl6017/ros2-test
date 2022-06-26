@@ -71,7 +71,7 @@ class nnSubscriber(Node):
         self.pub_eye_cmds.publish(msg_out_eye)
         self.pub_mouth_cmds.publish(msg_out_mouth)
         
-        self.get_logger().info('nn get: "%s", out: "%s", "%s"' %(len(msg.data), len(msg_out_eye.data), len(msg_out_mouth.data)))
+        # self.get_logger().info('nn get: "%s", out: "%s", "%s"' %(len(msg.data), len(msg_out_eye.data), len(msg_out_mouth.data)))
 
         self.i += 1
 

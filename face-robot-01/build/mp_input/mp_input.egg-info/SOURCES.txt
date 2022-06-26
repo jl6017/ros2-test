@@ -12,6 +12,7 @@ launch/mp.launch.py
 mp_input/__init__.py
 mp_input/mpinput.py
 mp_input/normalization.py
+mp_input/servo_motor_mp.py
 mp_input/lmks_data/__init__.py
 mp_input/lmks_data/face_geometry.py
 mp_input/lmks_data/simplified_landmark_plus.py

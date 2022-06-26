@@ -98,6 +98,13 @@ c12 = NECK_Controller(12, 400, 600, 4)
 c_group = [c10, c11, c12]
 start()
 
+def track_neck(data, kx=0.05, ky = 0.05):
+    xs = data[0]/abs(data[2])
+    ys = data[1]/abs(data[2])
+
+    c10.act(c10.pre_value - kx * xs)
+    c12.act(c12.pre_value + ky * ys)
+
  
 # Generate random
 def act_rdm_cmd():

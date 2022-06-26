@@ -22,12 +22,12 @@ class eyeSubscriber(Node):
         new_time = time.time()
         fps = 1. / (new_time - self.ctime)
         self.ctime = new_time
-
-        self.get_logger().info('eye cmds:"%s" fps: "%s"' % (len(msg.data), int(fps)))
+        # eye_move(msg.data)
+        # self.get_logger().info('eye cmds:"%s" fps: "%s"' % (len(msg.data * 2), int(fps)))
 
 
 def main(args=None):
-    slowly_open()
+    # slowly_open()
     rclpy.init(args=args)
 
     eye_subscriber = eyeSubscriber()
