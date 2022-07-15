@@ -1,0 +1,424 @@
+[0.781s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.781s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff88e30700>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff88e30700>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff88e30c40>)
+[0.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.910s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/Desktop/code/ros2-test/face-robot-01'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'ignore_ament_install'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extensions ['colcon_pkg']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'colcon_pkg'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extensions ['colcon_meta']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'colcon_meta'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extensions ['ros']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/eye_cmds) by extension 'ros'
+[1.009s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eye_cmds' with type 'ros.ament_python' and name 'eye_cmds'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extensions ['ignore', 'ignore_ament_install']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extension 'ignore'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extension 'ignore_ament_install'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extensions ['colcon_pkg']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extension 'colcon_pkg'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extensions ['colcon_meta']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extension 'colcon_meta'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extensions ['ros']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyeball_cmds) by extension 'ros'
+[1.016s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eyeball_cmds' with type 'ros.ament_python' and name 'eyeball_cmds'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extensions ['ignore', 'ignore_ament_install']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'ignore'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'ignore_ament_install'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extensions ['colcon_pkg']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'colcon_pkg'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extensions ['colcon_meta']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'colcon_meta'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extensions ['ros']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/mouth_cmds) by extension 'ros'
+[1.022s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mouth_cmds' with type 'ros.ament_python' and name 'mouth_cmds'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'ignore_ament_install'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extensions ['colcon_pkg']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'colcon_pkg'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extensions ['colcon_meta']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/mp_input) by extension 'ros'
+[1.032s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mp_input' with type 'ros.ament_python' and name 'mp_input'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extensions ['colcon_meta']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'colcon_meta'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extensions ['ros']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/neck_cmds) by extension 'ros'
+[1.038s] DEBUG:colcon.colcon_core.package_identification:Package 'src/neck_cmds' with type 'ros.ament_python' and name 'neck_cmds'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extensions ['ignore', 'ignore_ament_install']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'ignore'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'ignore_ament_install'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extensions ['colcon_pkg']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'colcon_pkg'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extensions ['colcon_meta']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_computer) by extension 'ros'
+[1.047s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nn_computer' with type 'ros.ament_python' and name 'nn_computer'
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.161s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[1.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_args' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_target' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_clean_cache' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_clean_first' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'cmake_force_configure' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'ament_cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'catkin_cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'eye_cmds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.606s] DEBUG:colcon.colcon_core.verb:Building package 'eye_cmds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds', 'merge_install': False, 'path': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eye_cmds', 'symlink_install': False, 'test_result_base': None}
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'cmake_target' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'cmake_clean_cache' from command line to 'False'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'cmake_clean_first' from command line to 'False'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'cmake_force_configure' from command line to 'False'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'ament_cmake_args' from command line to 'None'
+[1.611s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'catkin_cmake_args' from command line to 'None'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'eyeball_cmds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.612s] DEBUG:colcon.colcon_core.verb:Building package 'eyeball_cmds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds', 'merge_install': False, 'path': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eyeball_cmds', 'symlink_install': False, 'test_result_base': None}
+[1.615s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_args' from command line to 'None'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_target' from command line to 'None'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_clean_cache' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_clean_first' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'cmake_force_configure' from command line to 'False'
+[1.617s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'ament_cmake_args' from command line to 'None'
+[1.617s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'catkin_cmake_args' from command line to 'None'
+[1.617s] Level 5:colcon.colcon_core.verb:set package 'mouth_cmds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.617s] DEBUG:colcon.colcon_core.verb:Building package 'mouth_cmds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds', 'merge_install': False, 'path': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mouth_cmds', 'symlink_install': False, 'test_result_base': None}
+[1.620s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_args' from command line to 'None'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_target' from command line to 'None'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_clean_cache' from command line to 'False'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_clean_first' from command line to 'False'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'cmake_force_configure' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'ament_cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'catkin_cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'mp_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.622s] DEBUG:colcon.colcon_core.verb:Building package 'mp_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input', 'merge_install': False, 'path': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mp_input', 'symlink_install': False, 'test_result_base': None}
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_args' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_target' from command line to 'None'
+[1.626s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_clean_cache' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_clean_first' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'cmake_force_configure' from command line to 'False'
+[1.628s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'ament_cmake_args' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'catkin_cmake_args' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'neck_cmds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.629s] DEBUG:colcon.colcon_core.verb:Building package 'neck_cmds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds', 'merge_install': False, 'path': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/neck_cmds', 'symlink_install': False, 'test_result_base': None}
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_args' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_target' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_clean_first' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'cmake_force_configure' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'ament_cmake_args' from command line to 'None'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.635s] Level 5:colcon.colcon_core.verb:set package 'nn_computer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.635s] DEBUG:colcon.colcon_core.verb:Building package 'nn_computer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer', 'merge_install': False, 'path': '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/nn_computer', 'symlink_install': False, 'test_result_base': None}
+[1.637s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.653s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eye_cmds' with build type 'ament_python'
+[1.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('eye_cmds', 'ament_prefix_path')
+[1.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/ament_prefix_path.ps1'
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/ament_prefix_path.dsv'
+[1.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/ament_prefix_path.sh'
+[1.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.721s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eyeball_cmds' with build type 'ament_python'
+[1.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyeball_cmds', 'ament_prefix_path')
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/ament_prefix_path.ps1'
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/ament_prefix_path.dsv'
+[1.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/ament_prefix_path.sh'
+[1.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.788s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mouth_cmds' with build type 'ament_python'
+[1.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouth_cmds', 'ament_prefix_path')
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/ament_prefix_path.ps1'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/ament_prefix_path.dsv'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/ament_prefix_path.sh'
+[1.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.862s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mp_input' with build type 'ament_python'
+[1.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_input', 'ament_prefix_path')
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/ament_prefix_path.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/ament_prefix_path.dsv'
+[1.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/ament_prefix_path.sh'
+[1.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.978s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/neck_cmds' with build type 'ament_python'
+[1.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('neck_cmds', 'ament_prefix_path')
+[1.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/ament_prefix_path.ps1'
+[1.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/ament_prefix_path.dsv'
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/ament_prefix_path.sh'
+[2.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.034s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/nn_computer' with build type 'ament_python'
+[2.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('nn_computer', 'ament_prefix_path')
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/ament_prefix_path.ps1'
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/ament_prefix_path.dsv'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/ament_prefix_path.sh'
+[2.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.376s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eye_cmds'
+[3.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.853s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eyeball_cmds'
+[4.859s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.250s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mouth_cmds'
+[6.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.642s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mp_input'
+[7.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.993s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/neck_cmds'
+[8.999s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/nn_computer'
+[10.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eyeball_cmds': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eyeball_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log --single-version-externally-managed
+[15.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mp_input': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_input build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/install.log --single-version-externally-managed
+[15.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eye_cmds': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/install.log --single-version-externally-managed
+[15.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mouth_cmds': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/install.log --single-version-externally-managed
+[16.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/neck_cmds': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/install.log --single-version-externally-managed
+[16.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/nn_computer': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_computer build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/install.log --single-version-externally-managed
+[18.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eyeball_cmds' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eyeball_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eyeball_cmds/install.log --single-version-externally-managed
+[18.769s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds' for CMake module files
+[18.772s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds' for CMake config files
+[18.790s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib'
+[18.796s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/bin'
+[18.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyeball_cmds', 'path')
+[18.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/path.ps1'
+[18.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/path.dsv'
+[18.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/path.sh'
+[18.858s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/pkgconfig/eyeball_cmds.pc'
+[18.860s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/lib/python3.8/site-packages'
+[18.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyeball_cmds', 'pythonpath')
+[18.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/pythonpath.ps1'
+[18.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/pythonpath.dsv'
+[18.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/pythonpath.sh'
+[18.892s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/bin'
+[18.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyeball_cmds', 'pythonscriptspath')
+[18.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/pythonscriptspath.ps1'
+[18.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/pythonscriptspath.dsv'
+[18.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/hook/pythonscriptspath.sh'
+[18.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyeball_cmds)
+[18.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/package.ps1'
+[18.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/package.dsv'
+[18.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/package.sh'
+[18.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/package.bash'
+[19.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/eyeball_cmds/package.zsh'
+[19.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eyeball_cmds/share/colcon-core/packages/eyeball_cmds)
+[19.407s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input' for CMake module files
+[19.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mp_input' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mp_input build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mp_input/install.log --single-version-externally-managed
+[19.417s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input' for CMake config files
+[19.433s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib'
+[19.439s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin'
+[19.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_input', 'path')
+[19.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/path.ps1'
+[19.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/path.dsv'
+[19.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/path.sh'
+[19.499s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/pkgconfig/mp_input.pc'
+[19.500s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/lib/python3.8/site-packages'
+[19.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_input', 'pythonpath')
+[19.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/pythonpath.ps1'
+[19.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/pythonpath.dsv'
+[19.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/pythonpath.sh'
+[19.515s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/bin'
+[19.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('mp_input', 'pythonscriptspath')
+[19.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/pythonscriptspath.ps1'
+[19.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/pythonscriptspath.dsv'
+[19.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/hook/pythonscriptspath.sh'
+[19.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mp_input)
+[19.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/package.ps1'
+[19.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/package.dsv'
+[19.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/package.sh'
+[19.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/package.bash'
+[19.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/mp_input/package.zsh'
+[19.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mp_input/share/colcon-core/packages/mp_input)
+[19.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/neck_cmds' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/neck_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/neck_cmds/install.log --single-version-externally-managed
+[19.606s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds' for CMake module files
+[19.608s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds' for CMake config files
+[19.615s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib'
+[19.615s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/bin'
+[19.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('neck_cmds', 'path')
+[19.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/path.ps1'
+[19.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/path.dsv'
+[19.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/path.sh'
+[19.634s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/pkgconfig/neck_cmds.pc'
+[19.635s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/lib/python3.8/site-packages'
+[19.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('neck_cmds', 'pythonpath')
+[19.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/pythonpath.ps1'
+[19.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/pythonpath.dsv'
+[19.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/pythonpath.sh'
+[19.672s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/bin'
+[19.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('neck_cmds', 'pythonscriptspath')
+[19.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/pythonscriptspath.ps1'
+[19.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/pythonscriptspath.dsv'
+[19.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/hook/pythonscriptspath.sh'
+[19.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(neck_cmds)
+[19.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/package.ps1'
+[19.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/package.dsv'
+[19.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/package.sh'
+[19.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/package.bash'
+[19.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/neck_cmds/package.zsh'
+[19.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/neck_cmds/share/colcon-core/packages/neck_cmds)
+[19.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/eye_cmds' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/eye_cmds/install.log --single-version-externally-managed
+[19.786s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds' for CMake module files
+[19.799s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds' for CMake config files
+[19.804s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib'
+[19.804s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/bin'
+[19.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('eye_cmds', 'path')
+[19.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/path.ps1'
+[19.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/path.dsv'
+[19.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/path.sh'
+[19.817s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/pkgconfig/eye_cmds.pc'
+[19.822s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/lib/python3.8/site-packages'
+[19.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('eye_cmds', 'pythonpath')
+[19.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/pythonpath.ps1'
+[19.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/pythonpath.dsv'
+[19.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/pythonpath.sh'
+[19.846s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/bin'
+[19.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('eye_cmds', 'pythonscriptspath')
+[19.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/pythonscriptspath.ps1'
+[19.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/pythonscriptspath.dsv'
+[19.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/hook/pythonscriptspath.sh'
+[19.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eye_cmds)
+[19.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/package.ps1'
+[19.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/package.dsv'
+[19.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/package.sh'
+[19.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/package.bash'
+[19.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/eye_cmds/package.zsh'
+[19.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/eye_cmds/share/colcon-core/packages/eye_cmds)
+[19.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/mouth_cmds' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mouth_cmds build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/mouth_cmds/install.log --single-version-externally-managed
+[19.954s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds' for CMake module files
+[19.960s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds' for CMake config files
+[19.963s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib'
+[19.963s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/bin'
+[19.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouth_cmds', 'path')
+[19.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/path.ps1'
+[19.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/path.dsv'
+[19.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/path.sh'
+[19.986s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/pkgconfig/mouth_cmds.pc'
+[19.987s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/lib/python3.8/site-packages'
+[19.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouth_cmds', 'pythonpath')
+[19.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/pythonpath.ps1'
+[19.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/pythonpath.dsv'
+[20.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/pythonpath.sh'
+[20.008s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/bin'
+[20.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('mouth_cmds', 'pythonscriptspath')
+[20.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/pythonscriptspath.ps1'
+[20.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/pythonscriptspath.dsv'
+[20.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/hook/pythonscriptspath.sh'
+[20.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mouth_cmds)
+[20.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/package.ps1'
+[20.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/package.dsv'
+[20.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/package.sh'
+[20.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/package.bash'
+[20.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/mouth_cmds/package.zsh'
+[20.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/mouth_cmds/share/colcon-core/packages/mouth_cmds)
+[20.443s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer' for CMake module files
+[20.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/nn_computer' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_computer build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/install.log --single-version-externally-managed
+[20.448s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer' for CMake config files
+[20.451s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib'
+[20.451s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/bin'
+[20.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('nn_computer', 'path')
+[20.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/path.ps1'
+[20.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/path.dsv'
+[20.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/path.sh'
+[20.459s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/pkgconfig/nn_computer.pc'
+[20.460s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages'
+[20.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('nn_computer', 'pythonpath')
+[20.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/pythonpath.ps1'
+[20.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/pythonpath.dsv'
+[20.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/pythonpath.sh'
+[20.469s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/bin'
+[20.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('nn_computer', 'pythonscriptspath')
+[20.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/pythonscriptspath.ps1'
+[20.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/pythonscriptspath.dsv'
+[20.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/hook/pythonscriptspath.sh'
+[20.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nn_computer)
+[20.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/package.ps1'
+[20.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/package.dsv'
+[20.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/package.sh'
+[20.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/package.bash'
+[20.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/nn_computer/package.zsh'
+[20.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/share/colcon-core/packages/nn_computer)
+[20.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.504s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.538s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.540s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.683s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/local_setup.ps1'
+[20.699s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/_local_setup_util_ps1.py'
+[20.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/setup.ps1'
+[20.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/local_setup.sh'
+[20.717s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/_local_setup_util_sh.py'
+[20.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/setup.sh'
+[20.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/local_setup.bash'
+[20.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/setup.bash'
+[20.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/local_setup.zsh'
+[20.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/setup.zsh'

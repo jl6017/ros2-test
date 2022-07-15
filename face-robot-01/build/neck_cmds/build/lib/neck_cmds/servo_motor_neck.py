@@ -98,12 +98,36 @@ c12 = NECK_Controller(12, 400, 600, 4)
 c_group = [c10, c11, c12]
 start()
 
+
+def move_necks(new_value):
+    pre_value = np.array([c10.pre_value, c11.pre_value, c12.pre_value])
+    length_list = np.array(new_value) - pre_value
+
+    for i in range(3):
+        c_group[i].act(new_value[i])
+    time.sleep(max(abs(length_list)) * 2)
+
+def move_steps(new_value):
+    pre_value = np.array([c10.pre_value, c11.pre_value, c12.pre_value])
+    length_list = np.array(new_value) - pre_value
+
+    steps = int(max(abs(length_list)) / 0.05)
+    if steps > 1:
+        for i in range(steps):
+            step_value = ((i + 1) / steps) * length_list + pre_value
+            move_necks(step_value)
+    else:
+        move_necks(new_value)
+
+
 def track_neck(data, kx=0.05, ky = 0.05):
     xs = data[0]/abs(data[2])
     ys = data[1]/abs(data[2])
 
-    c10.act(c10.pre_value - kx * xs)
-    c12.act(c12.pre_value + ky * ys)
+    new_v = [c10.pre_value - kx * xs, 0.5, c12.pre_value + ky * ys]
+    # new_v = [c10.pre_value - kx * xs, 0.5, 0.5]
+
+    move_steps(new_v)
 
  
 # Generate random

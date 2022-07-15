@@ -1,0 +1,21 @@
+[8.989s] Invoking command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/nn_computer': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_computer build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/install.log --single-version-externally-managed
+[10.276s] running egg_info
+[10.280s] writing ../../build/nn_computer/nn_computer.egg-info/PKG-INFO
+[10.282s] writing dependency_links to ../../build/nn_computer/nn_computer.egg-info/dependency_links.txt
+[10.284s] writing entry points to ../../build/nn_computer/nn_computer.egg-info/entry_points.txt
+[10.285s] writing requirements to ../../build/nn_computer/nn_computer.egg-info/requires.txt
+[10.287s] writing top-level names to ../../build/nn_computer/nn_computer.egg-info/top_level.txt
+[10.485s] reading manifest file '../../build/nn_computer/nn_computer.egg-info/SOURCES.txt'
+[10.490s] writing manifest file '../../build/nn_computer/nn_computer.egg-info/SOURCES.txt'
+[10.491s] running build
+[10.492s] running build_py
+[10.494s] running install
+[10.498s] running install_lib
+[10.505s] running install_data
+[10.508s] running install_egg_info
+[10.516s] removing '/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages/nn_computer-0.0.0-py3.8.egg-info' (and everything under it)
+[10.520s] Copying ../../build/nn_computer/nn_computer.egg-info to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages/nn_computer-0.0.0-py3.8.egg-info
+[10.524s] running install_scripts
+[10.624s] Installing nn_node script to /home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/bin
+[10.627s] writing list of installed files to '/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/install.log'
+[10.777s] Invoked command in '/home/nvidia/Desktop/code/ros2-test/face-robot-01/src/nn_computer' returned '0': PYTHONPATH=/home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/prefix_override:/home/nvidia/Desktop/code/ros2-test/face-robot-01/install/nn_computer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_computer build --build-base /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/build install --record /home/nvidia/Desktop/code/ros2-test/face-robot-01/build/nn_computer/install.log --single-version-externally-managed
